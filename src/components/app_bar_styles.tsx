@@ -19,7 +19,8 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
   },
   appBar: {
-    backgroundImage: "linear-gradient(45deg, #0d0d0d, #ff0a0a);",
+   // backgroundImage: "linear-gradient(45deg, #0d0d0d, #ff0a0a);",
+    backgroundImage: "linear-gradient(rgb(250,100,10), #000000);",
   },
   searchIcon: {
     padding: theme.spacing(0, 2),

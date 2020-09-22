@@ -7,6 +7,8 @@ const useStyles = makeStyles({
     overflow: "auto",
     position: "absolute",
     backgroundColor: "#ffffffa6",
+    backgroundImage: 'url("images/background.jpg")',
+    backgroundSize:'cover'
   },
   appBar: {
     position: "fixed",
@@ -65,6 +67,7 @@ const useStyles = makeStyles({
     width: "100%",
     marginTop: "16px",
     marginLeft: "-2vw",
+    
   },
 });
 

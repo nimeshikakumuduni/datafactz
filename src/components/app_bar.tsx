@@ -81,49 +81,31 @@ function MyAppBar() {
         <Typography variant="h6" className={classes.title}></Typography>
         <div className={classes.btnset}>
           <Button
-            onClick={() => {
-              gotoPage(routeNames.contact);
-            }}
             className={classes.btnstyle}
           >
             About
           </Button>
           <Button
-            onClick={() => {
-              gotoPage(routeNames.contact);
-            }}
             className={classes.btnstyle}
           >
             Analytics
           </Button>
           <Button
-            onClick={() => {
-              gotoPage(routeNames.contact);
-            }}
             className={classes.btnstyle}
           >
             Capabilities
           </Button>
           <Button
-            onClick={() => {
-              gotoPage(routeNames.contact);
-            }}
             className={classes.btnstyle}
           >
             Solutions
           </Button>
           <Button
-            onClick={() => {
-              gotoPage(routeNames.contact);
-            }}
             className={classes.btnstyle}
           >
             Thought Leadership
           </Button>
           <Button
-            onClick={() => {
-              gotoPage(routeNames.contact);
-            }}
             className={classes.btnstyle}
           >
             Contact Us
