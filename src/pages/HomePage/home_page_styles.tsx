@@ -8,6 +8,7 @@ const useStyles = makeStyles({
     position: "absolute",
     backgroundColor: "#ffffffa6",
     backgroundImage: 'url("images/background.jpg")',
+    opacity: "0.9",
     backgroundSize:'cover'
   },
   appBar: {

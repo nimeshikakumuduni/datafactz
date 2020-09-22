@@ -1,13 +1,14 @@
 import React from "react";
 import useStyles from "./home_page_styles";
-import { List, ListItem,ListItemText } from "@material-ui/core";
+import { List, ListItem, ListItemText } from "@material-ui/core";
 import MyAppBar from "../../components/app_bar";
 import NameCard from "../contactPage/name_card";
 import { useHistory } from "react-router-dom";
+import ParticlesBg from "particles-bg";
 
 function HomePage() {
   const classes = useStyles();
-  const history = useHistory(); 
+  const history = useHistory();
 
   return (
     <div>
@@ -35,7 +36,9 @@ function HomePage() {
             <div></div>
             <text className={classes.text4}>Our Services :</text>
             <ServiceList />
+           
           </div>
+          <ParticlesBg type="random" bg={true} />
         </div>
       </div>
     </div>
