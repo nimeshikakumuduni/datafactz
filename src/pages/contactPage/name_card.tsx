@@ -5,6 +5,7 @@ export default function NameCard() {
   const classes = useStyles();
   return (
     <div className={classes.nameRowWidth}>
+       <ParticlesBg type="polygon" bg={true} />
       <div className={classes.text2}>
         DataFactz.com
       </div>

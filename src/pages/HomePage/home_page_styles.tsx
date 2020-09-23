@@ -72,9 +72,9 @@ const useStyles = makeStyles({
   },
   homecontent: {
     width: "100%",
-    marginTop: "5px",
-    marginLeft: "-4vw",
-    backgroundImage: 'url("images/bg3.png")',
+    marginTop: "-3px",
+    marginLeft: "-6vw",
+    backgroundImage: 'url("images/bg5.jpg")',
     opacity: "0.9",
     backgroundSize:'cover',
     borderRadius: "10px",

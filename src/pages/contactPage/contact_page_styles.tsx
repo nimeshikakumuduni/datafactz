@@ -36,6 +36,7 @@ const useStyles = makeStyles((theme: Theme) =>
       color: "#470000",
       textShadow: "-2px 3px 33px white",
       marginTop: "15vw",
+      marginleft: "-4vw",
     },
     nameRowWidth: {
       width: "100%",
