@@ -32,8 +32,8 @@ const useStyles = makeStyles((theme: Theme) =>
     text2: {
       fontSize: "6vw",
       fontWeight: 700,
-      fontFamily: "action",
-      color: "rgb(90 74 74)",
+      fontFamily: "Comic Sans MS",
+      color: "#470000",
       textShadow: "-2px 3px 33px white",
       marginTop: "15vw",
     },

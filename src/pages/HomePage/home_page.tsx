@@ -20,9 +20,11 @@ function HomePage() {
         <div className={classes.nameRow}>
           <NameCard />
           <div className={classes.homecontent}>
-            <text className={classes.text3}>
-              Unparalleled Business Analytics for Data-Driven Solutions
-            </text>
+            <div className={classes.topic1}>
+              <text className={classes.text3}>
+                Unparalleled Business Analytics for Data-Driven Solutions
+              </text>
+            </div>
             <div></div>
             <text className={classes.text4}>Our Goal : </text>
             <div></div>
@@ -36,9 +38,8 @@ function HomePage() {
             <div></div>
             <text className={classes.text4}>Our Services :</text>
             <ServiceList />
-           
           </div>
-          <ParticlesBg type="random" bg={true} />
+          <ParticlesBg type="cobweb" bg={true} />
         </div>
       </div>
     </div>

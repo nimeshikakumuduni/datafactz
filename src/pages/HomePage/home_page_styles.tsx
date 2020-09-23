@@ -44,14 +44,19 @@ const useStyles = makeStyles({
     textShadow: "-2px 3px 33px white",
   },
   text3: {
-    fontSize: "1.5vw",
-    fontWeight: 600,
-    color: "black",
+    fontSize: "3vw",
+    fontWeight: 800,
+    color: "#260033",
+    fontFamily: "Comic Sans MS",
+    textShadow: "-2px 3px 33px white",
   },
   text4: {
     fontSize: "1.5vw",
-    fontWeight: 500,
-    color: "purple",
+    fontWeight: 500, 
+    color: "#2e2929",
+    fontFamily: "Arial Black",
+    textShadow: "-2px 3px 33px white",
+    backgroundColor: "#fcb852",
   },
   text5: {
     fontSize: "1.5vw",
@@ -63,13 +68,20 @@ const useStyles = makeStyles({
     margin: "5px",
     width: "300px",
     borderRadius: "5px",
+    opacity: "2",
   },
   homecontent: {
     width: "100%",
-    marginTop: "16px",
-    marginLeft: "-2vw",
-    
+    marginTop: "5px",
+    marginLeft: "-4vw",
+    backgroundImage: 'url("images/bg3.png")',
+    opacity: "0.9",
+    backgroundSize:'cover',
+    borderRadius: "10px",
   },
+  topic1: {
+    color: "#221c29",
+  }
 });
 
 export default useStyles;
