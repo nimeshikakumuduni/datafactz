@@ -9,11 +9,9 @@ import {
   CardMedia,
 } from "@material-ui/core";
 import MyAppBar from "../../components/app_bar";
-import { useHistory } from "react-router-dom";
 
 function ContactPage() {
   const classes = useStyles();
-  const history = useHistory();
   return (
     <div>
       <div className={classes.outer}></div>
@@ -43,7 +41,7 @@ function ContactList() {
                 Email
               </Typography>
               <Typography variant="subtitle1" color="textSecondary">
-                Send us email for direct contact
+                Send us email.
               </Typography>
             </CardContent>
             <div></div>
@@ -82,31 +80,10 @@ function ContactList() {
           <div className={classes.details}>
             <CardContent className={classes.content}>
               <Typography component="h5" variant="h5">
-                Twitter
+                Telephone Number
               </Typography>
               <Typography variant="subtitle1" color="textSecondary">
-                Directly contact us by Twitter.!
-              </Typography>
-            </CardContent>
-            <div></div>
-          </div>
-          <CardMedia
-            className={classes.contacticon}
-            image={"images/twitter.png"}
-            title="Twitter"
-          />
-        </Card>
-      </ListItem>
-
-      <ListItem>
-        <Card className={classes.card}>
-          <div className={classes.details}>
-            <CardContent className={classes.content}>
-              <Typography component="h5" variant="h5">
-                Request Call
-              </Typography>
-              <Typography variant="subtitle1" color="textSecondary">
-                (866) 739-0820
+                Directly contact us!
               </Typography>
             </CardContent>
             <div></div>

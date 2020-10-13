@@ -19,7 +19,7 @@ function MyAppBar() {
   const history = useHistory();
   const classes = useStyles();
   const [menuEl, setMenuEl] = React.useState<null | HTMLElement>(null);
-  const isMenuOpen = Boolean(menuEl);
+  // const isMenuOpen = Boolean(menuEl);
 
   const gotoPage = (route: string) => {
     history.push(route);
@@ -30,29 +30,29 @@ function MyAppBar() {
     setMenuEl(event.currentTarget);
   };
 
-  const handleMenuClose = () => {
-    setMenuEl(null);
-  };
+  // const handleMenuClose = () => {
+  //   setMenuEl(null);
+  // };
 
-  const menuId = "primary-search-account-menu";
-  const renderMenu = (
-    <Menu
-      anchorEl={menuEl}
-      anchorOrigin={{ vertical: "top", horizontal: "right" }}
-      id={menuId}
-      keepMounted
-      transformOrigin={{ vertical: "top", horizontal: "right" }}
-      open={isMenuOpen}
-      onClose={handleMenuClose}
-    >
-      <MenuItem onClick={handleMenuClose}>About</MenuItem>
-      <MenuItem onClick={handleMenuClose}>Analytics</MenuItem>
-      <MenuItem onClick={handleMenuClose}>Capabilities</MenuItem>
-      <MenuItem onClick={handleMenuClose}>Solutions</MenuItem>
-      <MenuItem onClick={handleMenuClose}>Thought Leadership</MenuItem>
-      <MenuItem onClick={handleMenuClose}>Contact Us</MenuItem>
-    </Menu>
-  );
+  // const menuId = "primary-search-account-menu";
+  // const renderMenu = (
+  //   <Menu
+  //     anchorEl={menuEl}
+  //     anchorOrigin={{ vertical: "top", horizontal: "right" }}
+  //     id={menuId}
+  //     keepMounted
+  //     transformOrigin={{ vertical: "top", horizontal: "right" }}
+  //     open={isMenuOpen}
+  //     onClose={handleMenuClose}
+  //   >
+  //     <MenuItem onClick={handleMenuClose}>About</MenuItem>
+  //     <MenuItem onClick={handleMenuClose}>Analytics</MenuItem>
+  //     <MenuItem onClick={handleMenuClose}>Capabilities</MenuItem>
+  //     <MenuItem onClick={handleMenuClose}>Solutions</MenuItem>
+  //     <MenuItem onClick={handleMenuClose}>Thought Leadership</MenuItem>
+  //     <MenuItem onClick={handleMenuClose}>Contact Us</MenuItem>
+  //   </Menu>
+  // );
 
   return (
     <AppBar position="static" className={classes.appBar}>
@@ -106,10 +106,14 @@ function MyAppBar() {
             Thought Leadership
           </Button>
           <Button
+           onClick={() => {
+            gotoPage(routeNames.contact);
+          }}
             className={classes.btnstyle}
           >
             Contact Us
           </Button>
+          
         </div>
       </Toolbar>
     </AppBar>

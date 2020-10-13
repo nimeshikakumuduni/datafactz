@@ -8,7 +8,6 @@ import ParticlesBg from "particles-bg";
 
 function HomePage() {
   const classes = useStyles();
-  const history = useHistory();
 
   return (
     <div>

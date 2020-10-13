@@ -32,11 +32,9 @@ const useStyles = makeStyles((theme: Theme) =>
     text2: {
       fontSize: "6vw",
       fontWeight: 700,
-      fontFamily: "Comic Sans MS",
-      color: "#470000",
+      fontFamily: "action",
+      color: "rgb(90 74 74)",
       textShadow: "-2px 3px 33px white",
-      marginTop: "15vw",
-      marginleft: "-4vw",
     },
     nameRowWidth: {
       width: "100%",
@@ -69,6 +67,7 @@ const useStyles = makeStyles((theme: Theme) =>
     contactPagediv: {
       width: "90%",
       height: "100%",
+      // overflow: "auto",
       position: "fixed",
       paddingLeft: "60%",
     },
