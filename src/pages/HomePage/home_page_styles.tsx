@@ -78,6 +78,7 @@ const useStyles = makeStyles({
     paddingTop: "15px",
     backgroundColor: "#101820",
     textalign: "center",
+    fontSize: "30px",
     fontWeight: "bold",
     color: "#ff780e",
   },
@@ -86,8 +87,25 @@ const useStyles = makeStyles({
     padding: "20px 15px",
     background: "#101820",
   },
+
   one: {
-  }
+  },
+
+  title1: {
+    position: "absolute",
+    marginLeft: "0",
+    marginBottom: "0",
+    margin: 0,
+    padding: "15px 20px 0 0",
+    color: "#fff",
+    cursor: "pointer",
+  },
+  container: {
+    width: "100%",
+    height: "50%",
+    marginTop: "10%",
+    color: "blue",
+  },
 });
 
 export default useStyles;
