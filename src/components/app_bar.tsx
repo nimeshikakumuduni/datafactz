@@ -24,9 +24,8 @@ function MyAppBar() {
   const gotoPage = (route: string) => {
     history.push(route);
   };
-  
 
-  const handleMenuOpen = (event:any) => {
+  const handleMenuOpen = (event: any) => {
     setMenuEl(event.currentTarget);
   };
 
@@ -57,64 +56,29 @@ function MyAppBar() {
   return (
     <AppBar position="static" className={classes.appBar}>
       <Toolbar>
-        <IconButton
-          edge="start"
-          className={classes.menuButton}
-          color="inherit"
-          aria-label="open drawer"
-        >
-          <MenuIcon onClick={handleMenuOpen} />
-        </IconButton>
-        <div className={classes.search}>
-          <div className={classes.searchIcon}>
-            <SearchIcon />
-          </div>
-          <InputBase
-            placeholder="Search…"
-            classes={{
-              root: classes.inputRoot,
-              input: classes.inputInput,
-            }}
-            inputProps={{ "aria-label": "search" }}
-          />
-        </div>
+        <img
+         width="250" height="70"
+          src="https://datafactz.com/wp-content/themes/datafactz/dist/images/logo.png"
+          className="img"
+          alt="Advanced Business Big Data Analytics Company - DataFactZ"
+        />
         <Typography variant="h6" className={classes.title}></Typography>
         <div className={classes.btnset}>
+          <Button className={classes.btnstyle}>About</Button>
+          <Button className={classes.btnstyle}>Analytics</Button>
+          <Button className={classes.btnstyle}>Capabilities</Button>
+          <Button className={classes.btnstyle}>Solutions</Button>
+          <Button className={classes.btnstyle}>Thought Leadership</Button>
           <Button
-            className={classes.btnstyle}
-          >
-            About
-          </Button>
-          <Button
-            className={classes.btnstyle}
-          >
-            Analytics
-          </Button>
-          <Button
-            className={classes.btnstyle}
-          >
-            Capabilities
-          </Button>
-          <Button
-            className={classes.btnstyle}
-          >
-            Solutions
-          </Button>
-          <Button
-            className={classes.btnstyle}
-          >
-            Thought Leadership
-          </Button>
-          <Button
-           onClick={() => {
-            gotoPage(routeNames.contact);
-          }}
+            onClick={() => {
+              gotoPage(routeNames.contact);
+            }}
             className={classes.btnstyle}
           >
             Contact Us
           </Button>
-          
         </div>
+        <SearchIcon className={classes.searchIcon} />
       </Toolbar>
     </AppBar>
   );

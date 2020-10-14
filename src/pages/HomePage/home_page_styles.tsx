@@ -6,26 +6,9 @@ const useStyles = makeStyles({
     height: "100%",
     overflow: "auto",
     position: "absolute",
-    backgroundColor: "#ffffffa6",
-    backgroundImage: 'url("images/background.jpg")',
-    opacity: "0.9",
-    backgroundSize:'cover'
   },
   appBar: {
     position: "fixed",
-    width: "100%",
-  },
-  appBarHeight: {
-    height: "80px",
-    width: "100%",
-  },
-  nameRow: {
-    width: "95%",
-    display: "flex",
-    flexDirection: "row",
-    padding: "5%",
-  },
-  nameRowWidth: {
     width: "100%",
   },
 
@@ -52,7 +35,7 @@ const useStyles = makeStyles({
   },
   text4: {
     fontSize: "1.5vw",
-    fontWeight: 500, 
+    fontWeight: 500,
     color: "#2e2929",
     fontFamily: "Arial Black",
     textShadow: "-2px 3px 33px white",
@@ -72,15 +55,38 @@ const useStyles = makeStyles({
   },
   homecontent: {
     width: "100%",
-    marginTop: "-3px",
-    marginLeft: "-6vw",
-    backgroundImage: 'url("images/bg5.jpg")',
-    opacity: "0.9",
-    backgroundSize:'cover',
-    borderRadius: "10px",
+    backgroundColor: "black",
+    marginTop: "22.4%",
   },
   topic1: {
     color: "#221c29",
+    width: "95%",
+    height: "50%",
+  },
+  img2: {
+    width: "950px",
+    position: "absolute",
+    justifyContent: "center",
+  },
+  cont1: {
+    width: "80%",
+    marginLeft: "5%",
+    height: "50%",
+  },
+  heading: {
+    margin: 0,
+    paddingTop: "15px",
+    backgroundColor: "#101820",
+    textalign: "center",
+    fontWeight: "bold",
+    color: "#ff780e",
+  },
+  tab: {
+    margin: 0,
+    padding: "20px 15px",
+    background: "#101820",
+  },
+  one: {
   }
 });
 
