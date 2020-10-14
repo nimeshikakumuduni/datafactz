@@ -56,7 +56,7 @@ const useStyles = makeStyles({
   homecontent: {
     width: "100%",
     backgroundColor: "black",
-    marginTop: "22.4%",
+    marginTop: "24%",
   },
   topic1: {
     color: "#221c29",
