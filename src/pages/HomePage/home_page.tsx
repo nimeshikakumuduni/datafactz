@@ -1,10 +1,8 @@
 import React from "react";
 import useStyles from "./home_page_styles";
-import { List, ListItem, ListItemText, TextField } from "@material-ui/core";
+import { List, ListItem} from "@material-ui/core";
 import MyAppBar from "../../components/app_bar";
-import NameCard from "../contactPage/name_card";
-import { useHistory } from "react-router-dom";
-import ParticlesBg from "particles-bg";
+
 
 function HomePage() {
   const classes = useStyles();
