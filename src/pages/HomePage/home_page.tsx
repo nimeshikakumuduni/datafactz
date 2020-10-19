@@ -2,13 +2,13 @@ import React from "react";
 import useStyles from "./home_page_styles";
 import { List, ListItem} from "@material-ui/core";
 import MyAppBar from "../../components/app_bar";
+import LogoArea from "../../components/logoArea/logo_area";
 
 
 function HomePage() {
   const classes = useStyles();
 
   return (
-    <div>
       <div className={classes.outer}>
         <div className={classes.appBar}>
           <MyAppBar />
@@ -48,11 +48,10 @@ function HomePage() {
           </List></div>
 
           <div className={classes.container}>
-          
+          <LogoArea/>
           </div>
         </div>
       </div>
-    </div>
   );
 }
 

@@ -4,7 +4,7 @@ const useStyles = makeStyles({
   outer: {
     width: "100%",
     height: "100%",
-    overflow: "auto",
+    overflowX: "hidden",
     position: "absolute",
   },
   appBar: {
@@ -55,8 +55,9 @@ const useStyles = makeStyles({
   },
   homecontent: {
     width: "100%",
-    backgroundColor: "black",
-    marginTop: "24%",
+    paddingLeft: "150px",
+    backgroundColor: "#101820",
+    marginTop: "35.5%",
   },
   topic1: {
     color: "#221c29",
@@ -64,17 +65,17 @@ const useStyles = makeStyles({
     height: "50%",
   },
   img2: {
-    width: "950px",
+    width: "1515px",
     position: "absolute",
     justifyContent: "center",
   },
   cont1: {
     width: "80%",
-    marginLeft: "5%",
     height: "50%",
   },
   heading: {
     margin: 0,
+    paddingLeft: "15px",
     paddingTop: "15px",
     backgroundColor: "#101820",
     textalign: "center",
@@ -102,7 +103,7 @@ const useStyles = makeStyles({
   },
   container: {
     width: "100%",
-    height: "50%",
+    height: "100%",
     marginTop: "10%",
     color: "blue",
   },
