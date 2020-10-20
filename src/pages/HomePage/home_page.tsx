@@ -25,10 +25,10 @@ function HomePage() {
        <HomeContent/>
        <LinearArea/>
        <RedLine/>
-       {/* <div className={classes.equalcolumns}>
+       <div className={classes.equalcolumns}>
          <Capabilities/>
          <Sector/>
-       </div> */}
+       </div>
       </div>
     </div>
   );

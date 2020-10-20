@@ -126,6 +126,7 @@ const useStyles = makeStyles({
     padding: "0",
     display: "flex",
     width: "100%",
+    height: "50%",
   },
 });
 

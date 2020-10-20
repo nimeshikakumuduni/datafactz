@@ -22,6 +22,7 @@ const useStyles = makeStyles({
     background: "#101820",
   },
   one: {},
+
   title1: {
     position: "absolute",
     marginLeft: "0",
@@ -30,6 +31,7 @@ const useStyles = makeStyles({
     padding: "15px 20px 0 0",
     color: "#fff",
     cursor: "pointer",
+    fontSize: "15px",
   },
 });
 
