@@ -4,7 +4,9 @@ const useStyles = makeStyles({
   capabilitycolumn: {
     width: "50%",
     position: "relative",
-    overflow: "hidden",
+    height: "40%",
+    overflow: "fix",
+    color: "yellow",
   },
   img_one: {
     width: "23%",

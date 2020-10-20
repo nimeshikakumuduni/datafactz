@@ -22,13 +22,14 @@ function HomePage() {
             id="beforeimage27895723"
           />
         </div>
-       <HomeContent/>
-       <LinearArea/>
-       <RedLine/>
-       <div className={classes.equalcolumns}>
-         <Capabilities/>
-         <Sector/>
-       </div>
+        <HomeContent />
+        <LinearArea />
+        <RedLine />
+
+        <div className={classes.equalcolumns}>
+          <Capabilities />
+          <Sector />
+        </div>
       </div>
     </div>
   );
