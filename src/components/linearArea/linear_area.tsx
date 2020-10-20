@@ -9,7 +9,7 @@ function LinearArea() {
     <div className={classes.container}>
     <div id="myCarousel" className={classes.slide}>
       <div className={classes.inner}>
-        <div>
+        <div className={classes.imgouter}>
          
           <div className={classes.image}>
             <img
@@ -44,8 +44,7 @@ function LinearArea() {
           
         </div>
 
-
-        <div>
+        <div className={classes.imgouter}>
           <div className={classes.image}>
             <img
               src="https://datafactz.com/wp-content/themes/datafactz/dist/images/meijer.png"
@@ -79,7 +78,7 @@ function LinearArea() {
         </div>
 
 
-        <div>
+        <div className={classes.imgouter}>
           <div className={classes.image}>
             <img
               src="https://datafactz.com/wp-content/themes/datafactz/dist/images/image11.png"
@@ -112,7 +111,7 @@ function LinearArea() {
           </div>
         </div>
 
-        <div>
+        <div className={classes.imgouter}>
         <div className={classes.image}>
             <img
               src="https://datafactz.com/wp-content/themes/datafactz/dist/images/starbucks.png"

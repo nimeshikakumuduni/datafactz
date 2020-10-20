@@ -47,7 +47,7 @@ const useStyles = makeStyles({
     fontWeight: 500,
     color: "meroon",
   },
- 
+
   homecontent: {
     width: "100%",
     backgroundColor: "#101820",
@@ -83,8 +83,7 @@ const useStyles = makeStyles({
     background: "#101820",
   },
 
-  one: {
-  },
+  one: {},
 
   title1: {
     position: "absolute",
@@ -96,17 +95,16 @@ const useStyles = makeStyles({
     cursor: "pointer",
   },
   container: {
-    width: "100%" !,
+    width: "100%"!,
     height: "40%",
     color: "blue",
     marginRight: "auto",
     marginLeft: "auto",
     backgroundColor: "#37a1af",
-
   },
   slide: {
     position: "relative",
-    height: "200px"
+    height: "200px",
   },
   inner: {
     position: "relative",
@@ -126,7 +124,9 @@ const useStyles = makeStyles({
   equalcolumns: {
     float: "none",
     padding: "0",
-  }
+    display: "flex",
+    width: "100%",
+  },
 });
 
 export default useStyles;
