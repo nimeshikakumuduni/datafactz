@@ -8,7 +8,7 @@ import {
   Typography,
   CardMedia,
 } from "@material-ui/core";
-import MyAppBar from "../../components/app_bar";
+import MyAppBar from "../../components/appBar/app_bar";
 
 function ContactPage() {
   const classes = useStyles();

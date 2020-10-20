@@ -123,6 +123,10 @@ const useStyles = makeStyles({
     marginLeft: "30px",
     marginRight: "30px",
   },
+  equalcolumns: {
+    float: "none",
+    padding: "0",
+  }
 });
 
 export default useStyles;
