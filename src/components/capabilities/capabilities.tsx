@@ -5,38 +5,44 @@ function Capabilities() {
   const classes = useStyles();
   return (
     <div className={classes.capabilitycolumn}>
-      <a href="/big-data" className={classes.img_one}>
+      <a href="/big-data">
         <img
+          className={classes.img_one}
           alt="big data"
           src="https://datafactz.com/wp-content/themes/datafactz/dist/images/big-data.png"
         />
       </a>
-      <a href="/data-visualization" className={classes.img_two}>
+      <a href="/data-visualization">
         <img
+          className={classes.img_two}
           alt="data visualization"
           src="https://datafactz.com/wp-content/themes/datafactz/dist/images/data-visualization.png"
         />
       </a>
-      <a href="/data-management" className={classes.img_three}>
+      <a href="/data-management">
         <img
+          className={classes.img_three}
           alt="data management"
           src="https://datafactz.com/wp-content/themes/datafactz/dist/images/data-management.png"
         />
       </a>
-      <a href="/business-intelligence" className={classes.img_four}>
+      <a href="/business-intelligence">
         <img
+          className={classes.img_four}
           alt="business intelligence"
           src="https://datafactz.com/wp-content/themes/datafactz/dist/images/business-intelligence.png"
         />
       </a>
-      <a href="/data-warehousing" className={classes.img_five}>
+      <a href="/data-warehousing">
         <img
+          className={classes.img_five}
           alt="data warehousing"
           src="https://datafactz.com/wp-content/themes/datafactz/dist/images/data-warehousing.png"
         />
       </a>
-      <a href="#" className={classes.img_six}>
+      <a href="#">
         <img
+          className={classes.img_six}
           alt="DataFactZ"
           src="https://datafactz.com/wp-content/themes/datafactz/dist/images/logo-circle.png"
         />
