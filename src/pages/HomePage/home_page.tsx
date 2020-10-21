@@ -6,6 +6,7 @@ import LinearArea from "../../components/linearArea/linear_area";
 import RedLine from "../../components/redLine/red_line";
 import Capabilities from "../../components/capabilities/capabilities";
 import Sector from "../../components/sector/sector";
+import Blog from "../../components/blog/blog";
 
 function HomePage() {
   const classes = useStyles();
@@ -30,6 +31,7 @@ function HomePage() {
           <Capabilities />
           <Sector />
         </div>
+        <div className={classes.postdiv}></div>
       </div>
     </div>
   );

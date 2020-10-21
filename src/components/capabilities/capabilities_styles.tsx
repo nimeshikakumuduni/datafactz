@@ -45,9 +45,11 @@ const useStyles = makeStyles({
   },
   background: {
     position: "absolute",
-    top: "20%",
-    left: "-20%",
+    top: "15%",
+    left: "9%",
     opacity: "1",
+    height: "80%",
+    width: "85%",
   },
   heading: {
     position: "absolute",

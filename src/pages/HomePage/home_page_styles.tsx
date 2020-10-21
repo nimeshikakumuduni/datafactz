@@ -128,6 +128,14 @@ const useStyles = makeStyles({
     width: "100%",
     height: "50%",
   },
+  postdiv: {
+    backgroundColor: "#c1c6c8",
+    width: "80%",
+    height: "50%",
+    overflow: "hidden",
+    position: "absolute",
+    marginTop: "20px",
+  },
 });
 
 export default useStyles;
