@@ -4,7 +4,7 @@ import { NoEncryption } from "@material-ui/icons";
 const useStyles = makeStyles((theme) => ({
   posts: {
     backgroundColor: "#c1c6c8",
-    width: "80%",
+    width: "90%",
     height: "90%",
     position: "relative",
     paddingLeft: "30px",
@@ -33,7 +33,10 @@ const useStyles = makeStyles((theme) => ({
       fontWeight: 660,
       fontStyle: "italic",
   },
-  separator: {},
+  separator: {
+      margin: "7px 0 37px 0",
+      borderColor: "#fff",
+  },
   subtitlefont: {
       color: "black",
       textDecoration: "none",
@@ -41,6 +44,10 @@ const useStyles = makeStyles((theme) => ({
   readmorefont: {
     color: "#101820",
     textDecoration: "none",
+},
+contentfont: {
+    fontWeight: 400,
+    fontSize: "16px",
 }
 }));
 

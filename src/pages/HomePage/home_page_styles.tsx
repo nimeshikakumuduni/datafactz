@@ -130,7 +130,7 @@ const useStyles = makeStyles({
   },
   postdiv: {
     backgroundColor: "#c1c6c8",
-    width: "70%",
+    width: "65%",
     height: "90%",
     overflow: "relative",
     position: "absolute",

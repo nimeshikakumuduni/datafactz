@@ -25,8 +25,8 @@ const useStyles = makeStyles({
     textAlign: "center",
     marginBottom: "5px",
     marginTop: "10px",
-    marginLeft: "60px",
-    marginRight: "60px",
+    marginLeft: "50px",
+    marginRight: "50px",
   },
   imgouter: {
     position: "relative",

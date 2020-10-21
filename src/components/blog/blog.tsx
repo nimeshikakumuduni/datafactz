@@ -12,7 +12,7 @@ function Blog() {
         <a href="https://datafactz.com/staying-positive/" className={classes.subtitlefont}>Staying Positive</a>
       </div>
       <div className={classes.content}>
-        <p>
+        <p className={classes.contentfont}>
           How can you stay positive AND productive during such global sudden
           uncertainty? This pandemic outbreak continues to take a toll all over
           the world, affecting our health, jobs, family, and global markets,
@@ -31,7 +31,7 @@ function Blog() {
         </a>
       </div>
       <div className={classes.content}>
-        <p>
+        <p className={classes.contentfont}>
           DataFactZ had another strong year of growth, which is a tribute to our
           employees and our partners. We expanded base business with existing
           clients and on-boarded two dozen new clients. Our approach is always
@@ -50,7 +50,7 @@ function Blog() {
         </a>
       </div>
       <div className={classes.content}>
-        <p>
+        <p className={classes.contentfont}>
           &nbsp; As we celebrate the end of 2018, we are proud of the many
           successes that happened throughout the year. It’s been an incredible
           journey and we are looking forward to raising the bar once again in
