@@ -31,7 +31,9 @@ function HomePage() {
           <Capabilities />
           <Sector />
         </div>
-        <div className={classes.postdiv}></div>
+        <div className={classes.postdiv}>
+          <Blog/>
+        </div>
       </div>
     </div>
   );

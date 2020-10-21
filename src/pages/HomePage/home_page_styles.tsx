@@ -59,7 +59,7 @@ const useStyles = makeStyles({
     height: "50%",
   },
   img2: {
-    width: "1515px",
+    width: "100%",
     position: "absolute",
     justifyContent: "center",
   },
@@ -130,11 +130,11 @@ const useStyles = makeStyles({
   },
   postdiv: {
     backgroundColor: "#c1c6c8",
-    width: "80%",
-    height: "50%",
-    overflow: "hidden",
+    width: "70%",
+    height: "90%",
+    overflow: "relative",
     position: "absolute",
-    marginTop: "20px",
+    marginTop: "-0.4%"
   },
 });
 
