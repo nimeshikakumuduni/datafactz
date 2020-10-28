@@ -21,6 +21,9 @@ const useStyles = makeStyles((theme) => ({
   appBar: {
     backgroundColor: "#101820",
     borderColor: "#05070a",
+    position: "fixed",
+    width: "100%",
+    overflow: "fixed",
   },
   searchIcon: {
     color: "orange",

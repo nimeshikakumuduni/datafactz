@@ -1,5 +1,4 @@
 import { makeStyles } from "@material-ui/core";
-import { NoEncryption } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   posts: {
@@ -21,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 700,
     fontSize: "20px",
     padding: "2px 1px",
-    marginTop: "20px",
+    marginTop: "8px",
   },
   content: {
       fontWeight: 300,

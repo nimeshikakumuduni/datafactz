@@ -4,15 +4,9 @@ const useStyles = makeStyles({
   outer: {
     width: "100%",
     height: "100%",
-    overflow: "hidden",
+    overflow: "scroll",
     position: "absolute",
   },
-  appBar: {
-    position: "fixed",
-    width: "100%",
-    overflow: "scroll",
-  },
-
   text1: {
     fontSize: "20vw",
     fontWeight: 700,
@@ -64,8 +58,9 @@ const useStyles = makeStyles({
     justifyContent: "center",
   },
   cont1: {
-    width: "80%",
+    width: "100%",
     height: "50%",
+    marginTop: "4%",
   },
   heading: {
     margin: 0,
@@ -126,16 +121,28 @@ const useStyles = makeStyles({
     padding: "0",
     display: "flex",
     width: "100%",
-    height: "50%",
+    height: "100%",
   },
   postdiv: {
     backgroundColor: "#c1c6c8",
-    width: "65%",
+    width: "70%",
     height: "90%",
     overflow: "relative",
     position: "absolute",
-    marginTop: "-0.4%"
+    marginTop: "-7%",
   },
+  solutiondiv: {
+    height: "100%",
+    width: "30%",
+    marginLeft: "70%",
+    marginTop: "-7%",
+  },
+  eventdiv: {
+    height: "100%",
+    width: "30%",
+    marginLeft: "70%",
+    marginTop: "-26.5%",
+  }
 });
 
 export default useStyles;

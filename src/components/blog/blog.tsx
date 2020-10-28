@@ -25,6 +25,7 @@ function Blog() {
         <a href="https://datafactz.com/staying-positive/" className={classes.readmorefont}>Read More</a>
       </div>
       <hr className={classes.separator} />
+
       <div className={classes.subtitle}>
         <a href="https://datafactz.com/2019-year-in-review/" className={classes.subtitlefont}>
           2019 Year in Review
@@ -44,6 +45,7 @@ function Blog() {
         <a href="https://datafactz.com/2019-year-in-review/" className={classes.readmorefont}>Read More</a>
       </div>
       <hr className={classes.separator} />
+      
       <div className={classes.subtitle}>
         <a href="https://datafactz.com/2018-year-in-review/" className={classes.subtitlefont}>
           2018 Year in Review

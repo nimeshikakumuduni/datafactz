@@ -16,6 +16,7 @@ const useStyles = makeStyles({
   inner: {
     position: "relative",
     width: "100%",
+    height: "",
     overflow: "hidden",
   },
   image: {
@@ -33,6 +34,7 @@ const useStyles = makeStyles({
     width: "100%",
     overflow: "hidden",
     marginTop: "25px",
+    marginBottom: "5%",
     height: "40%",
   }
 });
