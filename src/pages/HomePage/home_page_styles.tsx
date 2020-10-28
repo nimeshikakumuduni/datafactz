@@ -142,6 +142,9 @@ const useStyles = makeStyles({
     width: "30%",
     marginLeft: "70%",
     marginTop: "-25.5%",
+  },
+  footerdiv: {
+    width: "100%",
   }
 });
 

@@ -5,6 +5,7 @@ const useStyles = makeStyles({
         backgroundColor: "#151515",
         position: "relative",
         width: "100%",
+        height: "40%",
     }
 });
 
