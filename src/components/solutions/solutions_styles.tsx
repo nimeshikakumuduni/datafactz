@@ -4,7 +4,7 @@ const useStyles = makeStyles({
     solutions: {
         backgroundColor: "#101820",
         width: "100%",
-        height: "43%",
+        height: "44.8%",
         // marginLeft: "30%",
         // marginTop: "5%",
     },

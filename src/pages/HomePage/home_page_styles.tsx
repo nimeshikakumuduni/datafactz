@@ -141,7 +141,7 @@ const useStyles = makeStyles({
     height: "100%",
     width: "30%",
     marginLeft: "70%",
-    marginTop: "-26.5%",
+    marginTop: "-25.5%",
   }
 });
 
