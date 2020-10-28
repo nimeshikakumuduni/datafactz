@@ -31,10 +31,7 @@ const useStyles = makeStyles((theme) => ({
   inputRoot: {
     color: "inherit",
   },
-  img:{
-    
-    
-  },
+
 }));
 
 export default useStyles;

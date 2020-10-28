@@ -3,7 +3,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import useStyles from "./app_bar_styles";
-import {Button} from "@material-ui/core";
+import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 import routeNames from "../../routes/route_names";
 import SearchIcon from "@material-ui/icons/Search";
@@ -15,14 +15,14 @@ function MyAppBar() {
   const gotoPage = (route: string) => {
     history.push(route);
   };
- 
+
   return (
     <AppBar position="static" className={classes.appBar}>
       <Toolbar>
         <img
-         width="250" height="70"
-          src="https://datafactz.com/wp-content/themes/datafactz/dist/images/logo.png"
-          className="img"
+          width="250"
+          height="70"
+          src="images\datafactz.png"
           alt="Advanced Business Big Data Analytics Company - DataFactZ"
         />
         <Typography variant="h6" className={classes.title}></Typography>
