@@ -34,7 +34,14 @@ function MyAppBar() {
           <Button className={classes.btnstyle}>About</Button>
           <Button className={classes.btnstyle}>Analytics</Button>
           <Button className={classes.btnstyle}>Capabilities</Button>
-          <Button className={classes.btnstyle}>Solutions</Button>
+          <Button
+            onClick={() => {
+              gotoPage(routeNames.solution);
+            }}
+            className={classes.btnstyle}
+          >
+            Solutions
+          </Button>
           <Button className={classes.btnstyle}>Thought Leadership</Button>
           <Button
             onClick={() => {

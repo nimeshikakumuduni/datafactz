@@ -1,56 +1,44 @@
 import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles({
-  outer: {
-    width: "100%",
-    height: "100%",
-    overflow: "scroll",
-    position: "absolute",
-    marginTop: "25%",
-  },
-
   img2: {
-    width: "100%",
-    height: "400px",
-    position: "fixed",
-    top: 0,
-    zIndex: -1,
-  },
-  cont1: {
-    width: "100%",
-    height: "50%",
-    position: "fixed",
-    marginTop: "2%",
-  },
-
-  footerdiv: {
-    backgroundColor: "#151515",
+    width: "50%",
+    height: "80%",
     position: "relative",
-    paddingTop: "50px",
-    width: "100%",
-    height: "50%",
-    marginTop: "-25.6%",
-  },
-  progressmeter: {
-    position: "fixed",
-  },
-  index_section0: {
-    float: "left",
-    width: "60px",
-    height: "10px",
-    margin: "0 2px",
-    backgroundColor: "red",
-    border: "1px solid rgba(255,255,255,.4)",
-    zIndex: 4,
-  },
-  index_section1: {},
-  mapdiv: {
-    width: "100%",
-    height: "40%",
-    backgroundColor: "white",
+    margin: 0,
+    padding: 0,
   },
   scrollOuter: { zIndex: 1, paddingTop: "400px" },
-  relative:{ position: "relative" }
+  relative: { position: "relative" },
+  firstrow: {
+    width: "100%",
+    display: "flex",
+    flexDirection: "row",
+    backgroundColor: "#c1c6c8",
+    position: "fixed",
+    zIndex: -1,
+  },
+  column2: {
+    width: "100%",
+  },
+  imagediv: {
+      marginTop: "-2%",
+      padding: 0,
+      marginBottom: "2%",
+  },
+  contentdiv: {
+    width: "100%",
+    backgroundColor: "#c1c6c8",
+  },
+  h1tag: {
+    color: "white",
+    fontWeight: 700,
+    textTransform: "uppercase",
+    paddingTop: "25%",
+    paddingLeft: "33%",
+    fontSize: "50px",
+    paddingBottom: "45%",
+  },
 });
 
 export default useStyles;
