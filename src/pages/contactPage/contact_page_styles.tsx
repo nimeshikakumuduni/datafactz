@@ -11,7 +11,10 @@ const useStyles = makeStyles({
 
   img2: {
     width: "100%",
-    position: "absolute",
+    height: "400px",
+    position: "fixed",
+    top: 0,
+    zIndex: -1,
   },
   cont1: {
     width: "100%",
@@ -29,7 +32,7 @@ const useStyles = makeStyles({
     marginTop: "-25.6%",
   },
   progressmeter: {
-position: "fixed",
+    position: "fixed",
   },
   index_section0: {
     float: "left",
@@ -40,14 +43,14 @@ position: "fixed",
     border: "1px solid rgba(255,255,255,.4)",
     zIndex: 4,
   },
-  index_section1: {
-    
-  },
+  index_section1: {},
   mapdiv: {
     width: "100%",
     height: "40%",
     backgroundColor: "white",
-  }
+  },
+  scrollOuter: { zIndex: 1, paddingTop: "400px" },
+  relative:{ position: "relative" }
 });
 
 export default useStyles;

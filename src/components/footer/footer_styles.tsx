@@ -3,7 +3,6 @@ import { makeStyles } from "@material-ui/core";
 const useStyles = makeStyles({
   footer: {
     width: "100%",
-    height: "60%",
     backgroundColor: "#151515",
   },
   btn: {
@@ -67,17 +66,17 @@ const useStyles = makeStyles({
     color: "#ff780e",
   },
   yellorow: {
-      backgroundColor: "#ff780e",
-      padding: "0.5px 0px",
-      marginTop: "5%",
-      width: "100%",
+    marginTop:'50px',
+    backgroundColor: "#ff780e",
+    padding: "0.5px 0px",
+    width: "100%",
   },
   copyright: {
-      color: "white",
-      fontWeight: 300,
-      fontSize: "18px",
-      marginLeft: "5%",
-  }
+    color: "white",
+    fontWeight: 300,
+    fontSize: "18px",
+    marginLeft: "5%",
+  },
 });
 
 export default useStyles;
