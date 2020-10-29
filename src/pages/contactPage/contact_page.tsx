@@ -1,7 +1,6 @@
 import React from "react";
 import useStyles from "./contact_page_styles";
 import MyAppBar from "../../components/appBar/app_bar";
-import { Typography } from "@material-ui/core";
 import ContactpageContent from "../../components/contactpageContent/contactpage_content";
 import Footer from "../../components/footer/footer";
 
