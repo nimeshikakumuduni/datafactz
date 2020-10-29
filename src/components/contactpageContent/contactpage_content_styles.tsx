@@ -110,7 +110,8 @@ const useStyles = makeStyles({
     flexDirection: "row",
   },
   twitter_logo: {
-    height: "100%",
+    height: "50px",
+    margin:'10px'
   },
 });
 
