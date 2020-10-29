@@ -3,10 +3,9 @@ import { makeStyles } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
   posts: {
     backgroundColor: "#c1c6c8",
-    width: "90%",
-    height: "90%",
-    position: "relative",
     paddingLeft: "30px",
+    marginRight:'10px',
+    paddingTop:'10px'
   },
   title: {
     fontWeight: 700,
@@ -14,7 +13,6 @@ const useStyles = makeStyles((theme) => ({
     color: "#FF780E",
     padding: "2px 1px",
     marginBottom: 0,
-    marginTop: "10px",
   },
   subtitle: {
     fontWeight: 700,

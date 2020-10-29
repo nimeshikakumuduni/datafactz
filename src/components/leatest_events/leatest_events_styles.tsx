@@ -4,7 +4,7 @@ const useStyles = makeStyles({
     solutions: {
         backgroundColor: "#595959",
         width: "100%",
-        height: "44.8%",
+        height: "49%",
     },
     
     title: {

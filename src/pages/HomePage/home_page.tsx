@@ -35,17 +35,17 @@ function HomePage() {
           <Capabilities />
           <Sector />
         </Typography>
-        <Typography className={classes.postdiv}>
-          <Blog />
-        </Typography>
-        <Typography className={classes.solutiondiv}>
-          <Solutions />
-        </Typography>
-        <Typography className={classes.eventdiv}>
-          <LeatestEvents />
-        </Typography>
-        
-          <Footer />
+        <div style={{ display: "flex", flexDirection: "row" }}>
+          <div style={{ width: "70%" }}>
+            <Blog />
+          </div>
+          <div style={{ width: "30%" }}>
+            <Solutions />
+            <LeatestEvents />
+          </div>
+        </div>
+      
+        <Footer />
       </div>
     </div>
   );
