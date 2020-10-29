@@ -17,7 +17,7 @@ function HomePage() {
 
   return (
     <div>
-        <MyAppBar />
+      <MyAppBar />
       <div className={classes.outer}>
         <Typography className={classes.cont1}>
           <img
@@ -32,20 +32,20 @@ function HomePage() {
         <RedLine />
 
         <Typography className={classes.equalcolumns}>
-          <Capabilities/>
-          <Sector/>
+          <Capabilities />
+          <Sector />
         </Typography>
         <Typography className={classes.postdiv}>
-          <Blog/>
+          <Blog />
         </Typography>
         <Typography className={classes.solutiondiv}>
-          <Solutions/>
+          <Solutions />
         </Typography>
         <Typography className={classes.eventdiv}>
-          <LeatestEvents/>
+          <LeatestEvents />
         </Typography>
         <Typography className={classes.footerdiv}>
-          <Footer/>
+          <Footer />
         </Typography>
       </div>
     </div>

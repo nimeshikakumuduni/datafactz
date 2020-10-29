@@ -20,10 +20,14 @@ function MyAppBar() {
     <AppBar position="static" className={classes.appBar}>
       <Toolbar>
         <img
+          className={classes.datafactzlogo}
           width="250"
           height="70"
           src="images\datafactz.png"
           alt="Advanced Business Big Data Analytics Company - DataFactZ"
+          onClick={() => {
+            gotoPage(routeNames.home);
+          }}
         />
         <Typography variant="h6" className={classes.title}></Typography>
         <div className={classes.btnset}>

@@ -1,4 +1,4 @@
-import {makeStyles } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -31,7 +31,9 @@ const useStyles = makeStyles((theme) => ({
   inputRoot: {
     color: "inherit",
   },
-
+  datafactzlogo: {
+    cursor: "pointer",
+  },
 }));
 
 export default useStyles;
