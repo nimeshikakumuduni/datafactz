@@ -20,10 +20,10 @@ function ContactPage() {
         </div>
       <div  className={classes.outer}>
       <ContactpageContent/>
+      <div className={classes.mapdiv}></div>
       <div>
-        
-      </div>
       <Footer/>
+      </div>
       </div>
     </div>
   );

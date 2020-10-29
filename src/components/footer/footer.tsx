@@ -5,8 +5,8 @@ import useStyles from "./footer_styles";
 function Footer() {
   const classes = useStyles();
   return (
-    <div>
-      <footer className={classes.footer}>
+    <div className={classes.footer}>
+      <footer>
         <div className={classes.column}>
           <img
             width="250"

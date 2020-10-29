@@ -43,6 +43,11 @@ position: "fixed",
   index_section1: {
     
   },
+  mapdiv: {
+    width: "100%",
+    height: "40%",
+    backgroundColor: "white",
+  }
 });
 
 export default useStyles;

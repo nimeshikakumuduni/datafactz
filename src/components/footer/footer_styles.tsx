@@ -3,8 +3,7 @@ import { makeStyles } from "@material-ui/core";
 const useStyles = makeStyles({
   footer: {
     width: "100%",
-    marginTop: "2%",
-    height: "55%",
+    height: "60%",
     backgroundColor: "#151515",
   },
   btn: {
@@ -29,6 +28,7 @@ const useStyles = makeStyles({
     width: "23%",
     backgroundColor: "#151515",
     marginLeft: "5%",
+    paddingTop: "5%",
   },
   img: {
     width: "250",
@@ -44,6 +44,7 @@ const useStyles = makeStyles({
   twitter: {},
   linkedin_square: {},
   facebook_square: {},
+
   bold: {
     fontWeight: 300,
     color: "#fff",
@@ -54,7 +55,7 @@ const useStyles = makeStyles({
     width: "15%",
     backgroundColor: "#151515",
     marginLeft: "36%",
-    marginTop: "-10%",
+    marginTop: "-8%",
   },
   column3: {
     width: "23%",
