@@ -144,12 +144,9 @@ const useStyles = makeStyles({
     marginTop: "-25.5%",
   },
   footerdiv: {
-    backgroundColor: "#151515",
     position: "relative",
-    paddingTop: "50px",
     width: "100%",
-    height: "50%",
-    marginTop: "-25.6%",
+    marginTop: "0%",
   },
 });
 
