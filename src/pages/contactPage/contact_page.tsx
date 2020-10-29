@@ -10,21 +10,19 @@ function ContactPage() {
   return (
     <div>
       <MyAppBar />
-      <div className={classes.cont1}>
-          <img
-            className={classes.img2}
-            alt="before"
-            src="images\contact-banner.jpg"
-            id="beforeimage27895723"
-          />
+      <div className={classes.relative}>
+        <img
+          className={classes.img2}
+          alt="before"
+          src="images\contact-banner.jpg"
+          id="beforeimage27895723"
+        />
+        <div className={classes.scrollOuter}>
+          <ContactpageContent />
+          <Footer />
         </div>
-      <div  className={classes.outer}>
-      <ContactpageContent/>
-      <div className={classes.mapdiv}></div>
-      <div>
-      <Footer/>
       </div>
-      </div>
+    
     </div>
   );
 }

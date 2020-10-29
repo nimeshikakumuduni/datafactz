@@ -44,9 +44,8 @@ function HomePage() {
         <Typography className={classes.eventdiv}>
           <LeatestEvents />
         </Typography>
-        <Typography className={classes.footerdiv}>
+        
           <Footer />
-        </Typography>
       </div>
     </div>
   );
