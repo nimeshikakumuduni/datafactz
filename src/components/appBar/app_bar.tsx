@@ -11,14 +11,24 @@ import SearchIcon from "@material-ui/icons/Search";
 function MyAppBar() {
   const history = useHistory();
   const classes = useStyles();
-  const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
+  const [anchorEl1, setAnchorEl1] = React.useState<null | HTMLElement>(null);
+  const [anchorEl2, setAnchorEl2] = React.useState<null | HTMLElement>(null);
 
-  const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-    setAnchorEl(event.currentTarget);
+  const handleClick1 = (event: React.MouseEvent<HTMLButtonElement>) => {
+    setAnchorEl1(event.currentTarget);
   };
 
-  const handleClose = () => {
-    setAnchorEl(null);
+  const handleClose1 = () => {
+    setAnchorEl1(null);
+  };
+
+
+  const handleClick2 = (event: React.MouseEvent<HTMLButtonElement>) => {
+    setAnchorEl2(event.currentTarget);
+  };
+
+  const handleClose2 = () => {
+    setAnchorEl2(null);
   };
 
   const gotoPage = (route: string) => {
@@ -44,43 +54,47 @@ function MyAppBar() {
             className={classes.btnstyle}
             aria-controls="about-menu"
             aria-haspopup="true"
-            onClick={handleClick}
+            onClick={handleClick1}
           >
             About
           </Button>
           <Menu
             id="about-menu"
-            anchorEl={anchorEl}
+            anchorEl={anchorEl1}
             keepMounted
-            open={Boolean(anchorEl)}
-            onClose={handleClose}
+            open={Boolean(anchorEl1)}
+            onClose={handleClose1}
+            style={{marginTop:'52px'}}
+            classes={{list:classes.dropList}}
           >
-            <MenuItem onClick={handleClose}>About Us</MenuItem>
-            <MenuItem onClick={handleClose}>Community care</MenuItem>
-            <MenuItem onClick={handleClose}>Careers</MenuItem>
-            <MenuItem onClick={handleClose}>IBM Partnership</MenuItem>
+            <MenuItem className={classes.menuItem} onClick={handleClose1}>About Us</MenuItem>
+            <MenuItem className={classes.menuItem} onClick={handleClose1}>Community care</MenuItem>
+            <MenuItem className={classes.menuItem} onClick={handleClose1}>Careers</MenuItem>
+            <MenuItem className={classes.menuItem} onClick={handleClose1}>IBM Partnership</MenuItem>
           </Menu>
           <Button
             className={classes.btnstyle}
             aria-controls="analytics-menu"
             aria-haspopup="true"
-            onClick={handleClick}
+            onClick={handleClick2}
           >
             Analytics
           </Button>
           <Menu
             id="analytics-menu"
-            anchorEl={anchorEl}
+            anchorEl={anchorEl2}
             keepMounted
-            open={Boolean(anchorEl)}
-            onClose={handleClose}
+            open={Boolean(anchorEl2)}
+            onClose={handleClose2}
+            style={{marginTop:'52px'}}
+            classes={{list:classes.dropList}}
           >
-            <MenuItem onClick={handleClose}>Supply Chain Analytics</MenuItem>
-            <MenuItem onClick={handleClose}>Customer Analytics</MenuItem>
-            <MenuItem onClick={handleClose}>Marketing Analytics</MenuItem>
-            <MenuItem onClick={handleClose}>Risk Analytics</MenuItem>
-            <MenuItem onClick={handleClose}>Social Media Analytics</MenuItem>
-            <MenuItem onClick={handleClose}>Real Time Analytics</MenuItem>
+            <MenuItem className={classes.menuItem} onClick={handleClose2}>Supply Chain Analytics</MenuItem>
+            <MenuItem className={classes.menuItem} onClick={handleClose2}>Customer Analytics</MenuItem>
+            <MenuItem className={classes.menuItem} onClick={handleClose2}>Marketing Analytics</MenuItem>
+            <MenuItem className={classes.menuItem} onClick={handleClose2}>Risk Analytics</MenuItem>
+            <MenuItem className={classes.menuItem} onClick={handleClose2}>Social Media Analytics</MenuItem>
+            <MenuItem className={classes.menuItem} onClick={handleClose2}>Real Time Analytics</MenuItem>
           </Menu>
           <Button className={classes.btnstyle}>Capabilities</Button>
           <Button

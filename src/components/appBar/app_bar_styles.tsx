@@ -34,6 +34,18 @@ const useStyles = makeStyles((theme) => ({
   datafactzlogo: {
     cursor: "pointer",
   },
+  menuItem: {
+    padding:'10px 15px',
+    backgroundColor: "#101820",
+    color: "white",
+    "&:hover,&:active": {
+      backgroundColor: "#101820",
+      color: "#be5e13",
+    },
+  },
+  dropList:{
+    padding:'0px'
+  }
 }));
 
 export default useStyles;
