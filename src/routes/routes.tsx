@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import AboutUsPage from "../pages/AboutUsPage/aboutus_page";
 import ContactPage from "../pages/contactPage/contact_page";
 import HomePage from "../pages/HomePage/home_page";
 import SolutionPage from "../pages/solutionPage/solution_page";
@@ -12,6 +13,7 @@ export default function MyRouter() {
         <Route exact path={routeNames.home} component={HomePage} />
         <Route exact path={routeNames.contact} component={ContactPage} />
         <Route exact path={routeNames.solution} component={SolutionPage} />
+        <Route exact path={routeNames.aboutus} component={AboutUsPage} />
       </Switch>
     </Router>
   );
