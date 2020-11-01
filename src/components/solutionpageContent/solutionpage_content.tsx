@@ -1,4 +1,5 @@
 import React from "react";
+import SolutionPageBlog from "../solutionpageBlog/solution_page_blog";
 import useStyles from "./solutionpage_content_styles";
 
 function SolutionpageContent() {
@@ -20,11 +21,7 @@ function SolutionpageContent() {
       </div>
 
       <div className={classes.cont2}>
-      <h1 className={classes.text2}>
-            See some of the diverse solutions we are part of. With services and
-            experience that cut across sectors, we invite you to share your Big
-            Data challenge regardless of industry.
-          </h1>
+      <SolutionPageBlog/>
       </div>
     </div>
   );

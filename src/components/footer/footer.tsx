@@ -18,17 +18,7 @@ function Footer() {
         <p className={classes.bold}>22260 Haggerty Rd, Northville, MI</p>
         <p className={classes.bold}>hello(at)datafactz.com</p>
 
-        <div className={classes.label}>
-          <a href="https://twitter.com/DataFactZ" target="_blank">
-            <i className={classes.twitter}></i>
-          </a>
-          <a href="https://www.linkedin.com/company/datafactz" target="_blank">
-            <i className={classes.linkedin_square}></i>
-          </a>
-          <a href="https://www.facebook.com/DataFactZCorp" target="_blank">
-            <i className={classes.facebook_square}></i>
-          </a>
-        </div>
+        <div className={classes.label}></div>
       </div>
 
       <div className={classes.column2}>

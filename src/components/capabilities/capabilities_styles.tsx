@@ -3,7 +3,6 @@ import { makeStyles } from "@material-ui/core";
 const useStyles = makeStyles({
   capabilitycolumn: {
     width: "50%",
-    height: "70%%",
     position: "relative",
     overflow: "fix",
     color: "#ff780e",

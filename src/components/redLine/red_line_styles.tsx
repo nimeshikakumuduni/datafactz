@@ -2,20 +2,25 @@ import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles({
   outer: {
+    width: "100%",
     backgroundColor: "#c73f26",
     position: "relative",
     background: "#fff",
-    padding: "10px 0",
-    textAlign: "center",
-    color: "white",
-    fontWeight: "bold",
   },
   container: {
-    marginRight: "auto",
-    marginLeft: "auto",
-    paddingLeft: "15px",
-    paddingRight: "15px",
+    paddingLeft: "27%",
+    paddingTop: "1%",
+    paddingBottom: "1%",
   },
+  sent: {
+    fontSize: "23px",
+    color: "white",
+    cursor: "pointer",
+  },
+  edge: {
+    fontWeight: "bold",
+    textDecoration: "underline",
+  }
 });
 
 export default useStyles;
