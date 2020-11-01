@@ -3,6 +3,7 @@ import useStyles from "./contact_page_styles";
 import MyAppBar from "../../components/appBar/app_bar";
 import ContactpageContent from "../../components/contactpageContent/contactpage_content";
 import Footer from "../../components/footer/footer";
+import LeafletMapView from "../../components/map/leaflet_map";
 
 function ContactPage() {
   const classes = useStyles();
@@ -18,6 +19,7 @@ function ContactPage() {
         />
         <div className={classes.scrollOuter}>
           <ContactpageContent />
+          <LeafletMapView lat={42.451333}  lon={-83.433439}/>
           <Footer />
         </div>
       </div>

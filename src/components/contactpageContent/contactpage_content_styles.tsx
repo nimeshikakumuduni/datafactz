@@ -7,6 +7,7 @@ const useStyles = makeStyles({
     height: "97%",
     display: "flex",
     flexDirection: "row",
+    paddingBottom:'30px'
   },
   cont1: {
     width: "100%",
