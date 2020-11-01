@@ -35,7 +35,7 @@ function HomePage() {
           <Capabilities />
           <Sector />
         </Typography>
-        <div style={{ display: "flex", flexDirection: "row" }}>
+        <div style={{ width: "100%", display: "flex", flexDirection: "row" }}>
           <div style={{ width: "70%" }}>
             <Blog />
           </div>
@@ -44,7 +44,6 @@ function HomePage() {
             <LeatestEvents />
           </div>
         </div>
-      
         <Footer />
       </div>
     </div>

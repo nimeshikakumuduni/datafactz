@@ -7,13 +7,12 @@ function HomeContent() {
 
   return (
     <div>
-       <div className={classes.homecontent}>
-          <h3 className={classes.heading} id="hero-tabs-heading">
-            Unparalleled Business Analytics For Data-Driven Solutions
-          </h3>
-        </div>
-        <List className={classes.tab}>
-          <ListItem className={classes.one}>
+      <div className={classes.homecontent}>
+        <h3 className={classes.heading} id="hero-tabs-heading">
+          Unparalleled Business Analytics For Data-Driven Solutions
+        </h3>
+        <List>
+          <ListItem>
             <h5 className={classes.title1}>Supply Chain Analytics</h5>
           </ListItem>
           <ListItem>
@@ -32,6 +31,7 @@ function HomeContent() {
             <h5 className={classes.title1}>Real Time Analytics</h5>
           </ListItem>
         </List>
+      </div>
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import useStyles from "./solution_page_styles";
 import MyAppBar from "../../components/appBar/app_bar";
-import ContactpageContent from "../../components/contactpageContent/contactpage_content";
 import Footer from "../../components/footer/footer";
 import SolutionpageContent from "../../components/solutionpageContent/solutionpage_content";
 

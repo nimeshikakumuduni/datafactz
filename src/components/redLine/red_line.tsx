@@ -7,8 +7,8 @@ function RedLine() {
   return (
     <div className={classes.outer}>
       <div className={classes.container}>
-        <a data-toggle="modal" data-target="#solutionModal">
-          ADD YOUR COMPANY TO THE LIST OF THE ONES WITH AN <span>EDGE!</span>
+        <a className={classes.sent}>
+          ADD YOUR COMPANY TO THE LIST OF THE ONES WITH AN <span className={classes.edge}>EDGE!</span>
         </a>
       </div>
     </div>

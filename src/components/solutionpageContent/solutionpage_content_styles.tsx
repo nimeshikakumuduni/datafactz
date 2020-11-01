@@ -21,8 +21,6 @@ const useStyles = makeStyles({
     color: "white",
     fontSize: "35px",
     fontWeight: 400,
-    textTransform: "capitalize",
-    padding: 0,
   },
   para: {
     width: "80%",
@@ -30,7 +28,7 @@ const useStyles = makeStyles({
   },
   cont2: {
     width: "100%",
-    backgroundColor: "pink",
+    backgroundColor: "white",
   },
 });
 

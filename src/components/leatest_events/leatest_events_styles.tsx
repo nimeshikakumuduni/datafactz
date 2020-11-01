@@ -4,7 +4,7 @@ const useStyles = makeStyles({
     solutions: {
         backgroundColor: "#595959",
         width: "100%",
-        height: "49%",
+        marginTop: "1%",
     },
     
     title: {
@@ -39,8 +39,9 @@ const useStyles = makeStyles({
         fontSize: "16px",
         fontWeight: 200,
         marginLeft: "5%",
-        marginTop: "3%", 
-        width: "89%",
+        marginTop: "4%", 
+        width: "85%",
+        paddingBottom: "2%",
     },
     topicdiv: {
         width: "80%",

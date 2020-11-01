@@ -9,7 +9,7 @@ function Sector() {
       <a href="/solutions">
         <img
           alt="discover the z factor for your sector"
-          src="https://datafactz.com/wp-content/themes/datafactz/dist/images/lightbulb_on.png"
+          src="images\sectorimage.png"
           className={classes.img}
         />
       </a>
