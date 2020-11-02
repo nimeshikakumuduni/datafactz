@@ -8,7 +8,7 @@ const useStyles = makeStyles({
     paddingTop: "5%",
     zIndex: -1,
   },
-  scrollOuter: { zIndex: 1, paddingTop: "400px" },
+  scrollOuter: { zIndex: 1},
   relative: { position: "relative", backgroundColor: "#ff780e",  zIndex: 1, },
   firstdiv: {
       width: "100%",
@@ -25,7 +25,17 @@ const useStyles = makeStyles({
   imagediv: {
   },
   textdiv: {
-      width: "70%",
+      fontSize:'55px',
+      color:'white',
+      fontWeight:'bold',
+      marginTop:'150px'
+  },
+  row:{
+    width: "100%",
+    height: "500px",
+    display: "flex",
+    flexDirection: "row",
+    paddingTop: "70px",
   }
 });
 
