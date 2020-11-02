@@ -15,6 +15,11 @@ const useStyles = makeStyles((theme) => ({
       margin: theme.spacing(1),
     },
   },
+  btnStyle2: {
+    color: "white",
+    fontSize:'10px',
+    padding:'0px'
+  },
   btnstyle: {
     color: "white",
   },

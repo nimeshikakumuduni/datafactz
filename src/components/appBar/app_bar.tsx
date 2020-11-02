@@ -7,6 +7,7 @@ import { Button, Menu, MenuItem } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 import routeNames from "../../routes/route_names";
 import SearchIcon from "@material-ui/icons/Search";
+import UseWindowSize from "../useWindowWidth/useWindowWidth";
 
 function MyAppBar() {
   const history = useHistory();
@@ -62,13 +63,14 @@ function MyAppBar() {
     gotoPage(routeNames.communitycare);
   }
 
+
+  const screenSize = UseWindowSize()
   return (
     <AppBar position="static" className={classes.appBar}>
       <Toolbar>
         <img
           className={classes.datafactzlogo}
-          width="250"
-          height="70"
+          width={ screenSize.width < 1100 ? "150px" :  "250px"}
           src="images\datafactz.png"
           alt="Advanced Business Big Data Analytics Company - DataFactZ"
           onClick={() => {
@@ -78,7 +80,7 @@ function MyAppBar() {
         <Typography variant="h6" className={classes.title}></Typography>
         <div className={classes.btnset}>
           <Button
-            className={classes.btnstyle}
+            className={ screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle}
             aria-controls="about-menu"
             aria-haspopup="true"
             onClick={handleClick1}
@@ -108,7 +110,7 @@ function MyAppBar() {
             </MenuItem>
           </Menu>
           <Button
-            className={classes.btnstyle}
+            className={ screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle}
             aria-controls="analytics-menu"
             aria-haspopup="true"
             onClick={handleClick2}
@@ -145,7 +147,7 @@ function MyAppBar() {
           </Menu>
 
           <Button
-            className={classes.btnstyle}
+            className={ screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle}
             aria-controls="analytics-menu"
             aria-haspopup="true"
             onClick={handleClick3}
@@ -181,12 +183,12 @@ function MyAppBar() {
             onClick={() => {
               gotoPage(routeNames.solution);
             }}
-            className={classes.btnstyle}
+            className={ screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle}
           >
             Solutions
           </Button>
           <Button
-            className={classes.btnstyle}
+            className={ screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle}
             aria-controls="analytics-menu"
             aria-haspopup="true"
             onClick={handleClick4}
@@ -225,7 +227,7 @@ function MyAppBar() {
             onClick={() => {
               gotoPage(routeNames.contact);
             }}
-            className={classes.btnstyle}
+            className={ screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle}
           >
             Contact Us
           </Button>
