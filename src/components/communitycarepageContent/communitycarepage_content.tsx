@@ -4,7 +4,6 @@ const useStyles = makeStyles({
   solutions: {
     width: "100%",
     height: "97%",
-    paddingBottom: "30px",
   },
   cont1: {
     width: "100%",

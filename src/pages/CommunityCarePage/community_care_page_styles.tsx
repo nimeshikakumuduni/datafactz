@@ -2,8 +2,8 @@ import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles({
   img2: {
-    width: "30%",
-    height: "60%",
+    width: "28%",
+    height: "55%",
     position: "fixed",
     paddingTop: "5%",
     zIndex: -1,
@@ -14,7 +14,6 @@ const useStyles = makeStyles({
       width: "100%",
       display: "flex",
       flexDirection: "row",
-      zIndex: 1,
   },
   firstdivtext: {
       textTransform: "uppercase",
@@ -23,9 +22,10 @@ const useStyles = makeStyles({
       color: "white",  
   },
   imagediv: {
+    width: "100%",
   },
   textdiv: {
-      width: "70%",
+      width: "100%",
   }
 });
 

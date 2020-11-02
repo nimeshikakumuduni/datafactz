@@ -15,12 +15,12 @@ function CommunitycarePage() {
       <div className={classes.relative}>
         <div className={classes.firstdiv}>
           <div className={classes.imagediv}>
-          <img
-            className={classes.img2}
-            alt="before"
-            src="images\image1.png"
-            id="beforeimage27895723"
-          />
+            <img
+              className={classes.img2}
+              alt="before"
+              src="images\image1.png"
+              id="beforeimage27895723"
+            />
           </div>
           <div className={classes.textdiv}>
             <p className={classes.firstdivtext}>building community</p>
