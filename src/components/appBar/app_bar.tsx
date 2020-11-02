@@ -61,10 +61,15 @@ function MyAppBar() {
   const communitycarebtnPressed = () => {
     setAnchorEl4(null);
     gotoPage(routeNames.communitycare);
-  }
+  };
 
+  const careersbtnPressed = () => {
+    setAnchorEl4(null);
+    gotoPage(routeNames.careers);
+  };
 
   const screenSize = UseWindowSize()
+
   return (
     <AppBar position="static" className={classes.appBar}>
       <Toolbar>
@@ -102,7 +107,7 @@ function MyAppBar() {
             <MenuItem className={classes.menuItem} onClick={communitycarebtnPressed}>
               Community care
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose1}>
+            <MenuItem className={classes.menuItem} onClick={careersbtnPressed}>
               Careers
             </MenuItem>
             <MenuItem className={classes.menuItem} onClick={handleClose1}>
