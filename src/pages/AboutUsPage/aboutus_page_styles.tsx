@@ -137,6 +137,38 @@ const useStyles = makeStyles({
     paddingTop: "2%",
     paddingBottom: "2%",
     fontSize: "45px",
+  },
+  columdiv: {
+    width: "100%",
+    display: "flex",
+    flexDirection: "column",
+  },
+  row1: {
+    width: "100%",
+    display: "flex",
+    flexDirection: "row",
+  },
+  personimage: {
+    width: "25%",
+    height: "25%",
+  },
+  personimageset2: {
+    width: "17%",
+    height: "12%",
+  },
+  set2row: {
+    width: "100%",
+    backgroundColor: "black",
+  },
+  lastdiv: {
+    width: "100%",
+    backgroundImage: "url('images\ipad-optimized.jpg')",
+  },
+  circletextl: {
+  color: "white",
+  fontSize: "19px",
+  fontWeight: 400,
+  paddingLeft: "4%",  
   }
 });
 

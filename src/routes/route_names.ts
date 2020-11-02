@@ -3,6 +3,7 @@ const routeNames = {
     contact: "/contact",
     solution: "/solution",
     aboutus: "/aboutUs",
+    communitycare: "/communitycare",
   };
   
   export default routeNames;

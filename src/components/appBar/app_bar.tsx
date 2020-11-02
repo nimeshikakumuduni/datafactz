@@ -55,6 +55,11 @@ function MyAppBar() {
   const aboutusBtnPressed = () => {
     setAnchorEl4(null);
     gotoPage(routeNames.aboutus);
+  };
+
+  const communitycarebtnPressed = () => {
+    setAnchorEl4(null);
+    gotoPage(routeNames.communitycare);
   }
 
   return (
@@ -92,7 +97,7 @@ function MyAppBar() {
             <MenuItem className={classes.menuItem} onClick={aboutusBtnPressed}>
               About Us
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose1}>
+            <MenuItem className={classes.menuItem} onClick={communitycarebtnPressed}>
               Community care
             </MenuItem>
             <MenuItem className={classes.menuItem} onClick={handleClose1}>

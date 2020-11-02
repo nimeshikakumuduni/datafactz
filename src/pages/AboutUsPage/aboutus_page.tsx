@@ -1,15 +1,7 @@
 import React from "react";
 import useStyles from "./aboutus_page_styles";
 import MyAppBar from "../../components/appBar/app_bar";
-import HomeContent from "../../components/homeContent/home_content";
-import LinearArea from "../../components/linearArea/linear_area";
-import RedLine from "../../components/redLine/red_line";
-import Capabilities from "../../components/capabilities/capabilities";
-import Sector from "../../components/sector/sector";
-import Blog from "../../components/blog/blog";
-import Solutions from "../../components/solutions/solutions";
-import { Button, Typography } from "@material-ui/core";
-import LeatestEvents from "../../components/leatest_events/leatest_events";
+import { Typography } from "@material-ui/core";
 import Footer from "../../components/footer/footer";
 
 function AboutUsPage() {
@@ -90,6 +82,72 @@ function AboutUsPage() {
           ></img>
         </div>
         <div className={classes.leadership}><h3 className={classes.leadershiptext}>leadership</h3></div>
+        <div className={classes.columdiv}>
+          <div className={classes.row1}>
+          <img
+            src="images\KK.jpg"
+            className={classes.personimage}
+          ></img>
+          <img
+            src="images\Adrian.jpg"
+            className={classes.personimage}
+          ></img>
+          <img
+            src="images\Shashi_bw.jpg"
+            className={classes.personimage}
+          ></img>
+          <img
+            src="images\Jim.jpg"
+            className={classes.personimage}
+          ></img>
+          </div>
+          <div className={classes.row1}>
+          <img
+            src="images\KK.jpg"
+            className={classes.personimage}
+          ></img>
+          <img
+            src="images\Adrian.jpg"
+            className={classes.personimage}
+          ></img>
+          <img
+            src="images\Shashi_bw.jpg"
+            className={classes.personimage}
+          ></img>
+          <img
+            src="images\Jim.jpg"
+            className={classes.personimage}
+          ></img>
+          </div>
+        </div>
+        <div className={classes.leadership}><h3 className={classes.leadershiptext}>Adversary Board</h3></div>
+        <div className={classes.set2row}>
+          <img
+            src="images\Dan-Ponder.jpg"
+            className={classes.personimageset2}
+          ></img>
+          <img
+            src="images\Whittaker.jpg"
+            className={classes.personimageset2}
+          ></img>
+          <img
+            src="images\Bob-Sullivan.jpg"
+            className={classes.personimageset2}
+          ></img>
+          <img
+            src="images\LMarshall.jpg"
+            className={classes.personimageset2}
+          ></img>
+          </div>
+          {/* <div className={classes.lastdiv}>
+            <div className={classes.circletextl}>Come Do Your Greatest Work</div>
+          </div> */}
+          <div className={classes.offcimagediv}>
+          <img
+            src="images\ipad-optimized.jpg"
+            className={classes.officeimage}
+          ></img>
+        </div>
         <Footer />
       </div>
     </div>
