@@ -3,11 +3,23 @@ import { makeStyles } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
   posts: {
     width: "100%",
-    backgroundColor: "white",
   },
   maincontent: {
     paddingTop: "3%",
-    paddingLeft: "5%",
+    paddingLeft: "10%",
+  },
+  maincontent2: {
+    paddingLeft: "10%",
+    backgroundColor: "#37a1af",
+    paddingBottom: "2%",
+  },
+  maincontent4: {
+    backgroundColor: "#c1c6c8",
+  },
+  maincontentyellow: {
+    paddingLeft: "4%",
+    backgroundColor: "#ff780e",
+    paddingBottom: "2%",
   },
   title: {
     fontWeight: 700,
@@ -15,6 +27,13 @@ const useStyles = makeStyles((theme) => ({
     color: "#FF780E",
     padding: "2px 1px",
     marginBottom: 0,
+  },
+  titlewhite: {
+    fontWeight: 700,
+    fontSize: "35px",
+    color: "white",
+    paddingLeft: "20%",
+    paddingTop: "2%",
   },
   subtitle: {
     fontWeight: 700,
@@ -24,8 +43,14 @@ const useStyles = makeStyles((theme) => ({
   },
   content: {
     fontWeight: 300,
-    width: "80%",
+    width: "90%",
     paddingTop: "1%",
+  },
+  contentblack: {
+    fontWeight: 300,
+    width: "75%",
+    paddingTop: "1%",
+    paddingLeft: "10%",
   },
   readmore: {
     marginLeft: "88%",
@@ -37,14 +62,18 @@ const useStyles = makeStyles((theme) => ({
     borderTop: "3px solid #ff780e",
     width: "90%",
     paddingLeft: "5%",
-   marginTop: "5%",
+    marginTop: "5%",
+  },
+  contentfontblack: {
+    fontWeight: 400,
+    fontSize: "16px",
+    color: "black",
+    paddingBottom: "3%",
   },
   contentfont: {
     fontWeight: 400,
     fontSize: "17px",
-    color: "black",
-    paddingBottom: "2%",
-    paddingTop: "3%",
+    color: "white",
   },
   image: {
     width: "70%",
@@ -52,12 +81,35 @@ const useStyles = makeStyles((theme) => ({
     paddingLeft: "3%",
     paddingBottom: "3%",
   },
+  image_product: {
+    width: "60%",
+    height: "40%",
+    paddingLeft: "10%",
+    paddingBottom: "3%",
+  },
+  image_supplychain: {
+    width: "35%",
+    height: "15%",
+    paddingLeft: "25%",
+    paddingBottom: "3%",
+  },
+  image_supplychain6: {
+    width: "35%",
+    height: "15%",
+    paddingLeft: "25%",
+    paddingBottom: "7%",
+  },
+  imagess: {
+    width: "80%",
+    height: "50%",
+    paddingLeft: "7%",
+    paddingBottom: "3%",
+  },
   image2: {
-    width: "23%",
+    width: "25%",
     height: "10%",
     paddingLeft: "20%",
     paddingBottom: "3%",
-    paddingTop: "2%",
   },
   image3: {
     width: "30%",
@@ -74,6 +126,9 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
   },
   col2: {
+    width: "100%",
+  },
+  col3: {
     width: "100%",
   },
   textq: {
@@ -100,24 +155,6 @@ const useStyles = makeStyles((theme) => ({
     width: "80%",
     paddingBottom: "2%",
   },
-  tablehead: {
-    backgroundColor: "#2e2e1f",
-  },
-  headtitle: {
-    color: "white",
-    alignContent: "left",
-  },
-  jobtitle: {
-    color: "#FF780E",
-    cursor: "pointer",
-  },
-  table: {
-    minWidth: 500,
-  },
-  emailaddress: {
-    color: "white",
-  },
-
 }));
 
 export default useStyles;

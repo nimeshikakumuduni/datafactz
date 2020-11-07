@@ -3,7 +3,6 @@ import { makeStyles } from "@material-ui/core";
 const useStyles = makeStyles({
   solutions: {
     width: "100%",
-    height: "97%",
   },
   cont1: {
     width: "100%",

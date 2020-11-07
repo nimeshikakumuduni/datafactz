@@ -5,6 +5,8 @@ const routeNames = {
     aboutus: "/aboutUs",
     communitycare: "/communitycare",
     careers: "/careers",
+    ibmPage: "/ibmPage",
+    SupplychainAnalytics: "/SupplychainAnalyticsPage",
   };
   
   export default routeNames;

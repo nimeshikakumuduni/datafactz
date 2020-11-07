@@ -68,14 +68,104 @@ function MyAppBar() {
     gotoPage(routeNames.careers);
   };
 
-  const screenSize = UseWindowSize()
+  const IBMbtnPressed = () => {
+    setAnchorEl4(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const SupplyChainBtnPressed = () => {
+    setAnchorEl2(null);
+    gotoPage(routeNames.SupplychainAnalytics);
+  };
+
+  const CustomerBtnPressed = () => {
+    setAnchorEl2(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const MarketingBtnPressed = () => {
+    setAnchorEl2(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const RiskBtnPressed = () => {
+    setAnchorEl2(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const SocialMediaBtnPressed = () => {
+    setAnchorEl2(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const RealtimeBtnPressed = () => {
+    setAnchorEl2(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const BigDataBtnPressed = () => {
+    setAnchorEl3(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const BusinessIntelligentBtnPressed = () => {
+    setAnchorEl3(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const DatawarehousingBtnPressed = () => {
+    setAnchorEl3(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const DatavisualizationBtnPressed = () => {
+    setAnchorEl3(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const DataManagementBtnPressed = () => {
+    setAnchorEl3(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const BlogBtnPressed = () => {
+    setAnchorEl4(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const CaseStudieasBtnPressed = () => {
+    setAnchorEl4(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const WhitePapersBtnPressed = () => {
+    setAnchorEl4(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const TestimonialsBtnPressed = () => {
+    setAnchorEl4(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const TechnologyBtnPressed = () => {
+    setAnchorEl4(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const NewsEventBtnPressed = () => {
+    setAnchorEl4(null);
+    gotoPage(routeNames.ibmPage);
+  };
+
+  const screenSize = UseWindowSize();
 
   return (
     <AppBar position="static" className={classes.appBar}>
       <Toolbar>
         <img
           className={classes.datafactzlogo}
-          width={ screenSize.width < 1100 ? "150px" :  "250px"}
+          width={screenSize.width < 1100 ? "150px" : "250px"}
           src="images\datafactz.png"
           alt="Advanced Business Big Data Analytics Company - DataFactZ"
           onClick={() => {
@@ -85,7 +175,9 @@ function MyAppBar() {
         <Typography variant="h6" className={classes.title}></Typography>
         <div className={classes.btnset}>
           <Button
-            className={ screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle}
+            className={
+              screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle
+            }
             aria-controls="about-menu"
             aria-haspopup="true"
             onClick={handleClick1}
@@ -104,18 +196,23 @@ function MyAppBar() {
             <MenuItem className={classes.menuItem} onClick={aboutusBtnPressed}>
               About Us
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={communitycarebtnPressed}>
+            <MenuItem
+              className={classes.menuItem}
+              onClick={communitycarebtnPressed}
+            >
               Community care
             </MenuItem>
             <MenuItem className={classes.menuItem} onClick={careersbtnPressed}>
               Careers
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose1}>
+            <MenuItem className={classes.menuItem} onClick={IBMbtnPressed}>
               IBM Partnership
             </MenuItem>
           </Menu>
           <Button
-            className={ screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle}
+            className={
+              screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle
+            }
             aria-controls="analytics-menu"
             aria-haspopup="true"
             onClick={handleClick2}
@@ -131,28 +228,39 @@ function MyAppBar() {
             style={{ marginTop: "52px" }}
             classes={{ list: classes.dropList }}
           >
-            <MenuItem className={classes.menuItem} onClick={handleClose2}>
+            <MenuItem
+              className={classes.menuItem}
+              onClick={SupplyChainBtnPressed}
+            >
               Supply Chain Analytics
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose2}>
+            <MenuItem className={classes.menuItem} onClick={CustomerBtnPressed}>
               Customer Analytics
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose2}>
+            <MenuItem
+              className={classes.menuItem}
+              onClick={MarketingBtnPressed}
+            >
               Marketing Analytics
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose2}>
+            <MenuItem className={classes.menuItem} onClick={RiskBtnPressed}>
               Risk Analytics
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose2}>
+            <MenuItem
+              className={classes.menuItem}
+              onClick={SocialMediaBtnPressed}
+            >
               Social Media Analytics
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose2}>
+            <MenuItem className={classes.menuItem} onClick={RealtimeBtnPressed}>
               Real Time Analytics
             </MenuItem>
           </Menu>
 
           <Button
-            className={ screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle}
+            className={
+              screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle
+            }
             aria-controls="analytics-menu"
             aria-haspopup="true"
             onClick={handleClick3}
@@ -168,19 +276,31 @@ function MyAppBar() {
             style={{ marginTop: "52px" }}
             classes={{ list: classes.dropList }}
           >
-            <MenuItem className={classes.menuItem} onClick={handleClose3}>
+            <MenuItem className={classes.menuItem} onClick={BigDataBtnPressed}>
               Big Data
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose3}>
+            <MenuItem
+              className={classes.menuItem}
+              onClick={BusinessIntelligentBtnPressed}
+            >
               Business Intelligrnt
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose3}>
+            <MenuItem
+              className={classes.menuItem}
+              onClick={DatawarehousingBtnPressed}
+            >
               Data warehousing & Modernization
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose3}>
+            <MenuItem
+              className={classes.menuItem}
+              onClick={DatavisualizationBtnPressed}
+            >
               Data Visualization & Dashboarding
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose3}>
+            <MenuItem
+              className={classes.menuItem}
+              onClick={DataManagementBtnPressed}
+            >
               Data Management
             </MenuItem>
           </Menu>
@@ -188,12 +308,16 @@ function MyAppBar() {
             onClick={() => {
               gotoPage(routeNames.solution);
             }}
-            className={ screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle}
+            className={
+              screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle
+            }
           >
             Solutions
           </Button>
           <Button
-            className={ screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle}
+            className={
+              screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle
+            }
             aria-controls="analytics-menu"
             aria-haspopup="true"
             onClick={handleClick4}
@@ -209,22 +333,37 @@ function MyAppBar() {
             style={{ marginTop: "52px" }}
             classes={{ list: classes.dropList }}
           >
-            <MenuItem className={classes.menuItem} onClick={handleClose4}>
+            <MenuItem className={classes.menuItem} onClick={BlogBtnPressed}>
               Blog
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose4}>
+            <MenuItem
+              className={classes.menuItem}
+              onClick={CaseStudieasBtnPressed}
+            >
               Case Studies
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose4}>
+            <MenuItem
+              className={classes.menuItem}
+              onClick={WhitePapersBtnPressed}
+            >
               Whitepapers
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose4}>
+            <MenuItem
+              className={classes.menuItem}
+              onClick={TestimonialsBtnPressed}
+            >
               Testimonials
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose4}>
+            <MenuItem
+              className={classes.menuItem}
+              onClick={TechnologyBtnPressed}
+            >
               Technology partners
             </MenuItem>
-            <MenuItem className={classes.menuItem} onClick={handleClose4}>
+            <MenuItem
+              className={classes.menuItem}
+              onClick={NewsEventBtnPressed}
+            >
               News & Events
             </MenuItem>
           </Menu>
@@ -232,7 +371,9 @@ function MyAppBar() {
             onClick={() => {
               gotoPage(routeNames.contact);
             }}
-            className={ screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle}
+            className={
+              screenSize.width < 1000 ? classes.btnStyle2 : classes.btnstyle
+            }
           >
             Contact Us
           </Button>

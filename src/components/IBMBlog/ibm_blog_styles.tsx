@@ -3,7 +3,6 @@ import { makeStyles } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
   posts: {
     width: "100%",
-    backgroundColor: "white",
   },
   maincontent: {
     paddingTop: "3%",
@@ -24,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   },
   content: {
     fontWeight: 300,
-    width: "80%",
+    width: "90%",
     paddingTop: "1%",
   },
   readmore: {
@@ -39,12 +38,10 @@ const useStyles = makeStyles((theme) => ({
     paddingLeft: "5%",
    marginTop: "5%",
   },
+
   contentfont: {
     fontWeight: 400,
     fontSize: "17px",
-    color: "black",
-    paddingBottom: "2%",
-    paddingTop: "3%",
   },
   image: {
     width: "70%",
@@ -53,11 +50,10 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: "3%",
   },
   image2: {
-    width: "23%",
-    height: "10%",
+    width: "50%",
+    height: "20%",
     paddingLeft: "20%",
     paddingBottom: "3%",
-    paddingTop: "2%",
   },
   image3: {
     width: "30%",
@@ -100,24 +96,6 @@ const useStyles = makeStyles((theme) => ({
     width: "80%",
     paddingBottom: "2%",
   },
-  tablehead: {
-    backgroundColor: "#2e2e1f",
-  },
-  headtitle: {
-    color: "white",
-    alignContent: "left",
-  },
-  jobtitle: {
-    color: "#FF780E",
-    cursor: "pointer",
-  },
-  table: {
-    minWidth: 500,
-  },
-  emailaddress: {
-    color: "white",
-  },
-
 }));
 
 export default useStyles;

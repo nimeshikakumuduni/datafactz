@@ -4,6 +4,7 @@ const useStyles = makeStyles({
   footer: {
     width: "100%",
     backgroundColor: "#151515",
+    marginTop: "-2%",
   },
   btn: {
     backgroundColor: "#ff780e",
