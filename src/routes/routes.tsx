@@ -4,6 +4,7 @@ import AboutUsPage from "../pages/AboutUsPage/aboutus_page";
 import CareersPage from "../pages/CareersPage/careers_page";
 import CommunitycarePage from "../pages/CommunityCarePage/community_care_page";
 import ContactPage from "../pages/contactPage/contact_page";
+import CustomerAnalyticsPage from "../pages/CustomerAnalyticsPage/customer_analytics_page";
 import HomePage from "../pages/HomePage/home_page";
 import IBMPartnershipPage from "../pages/IBMPartnershipPage/ibm_partnership_page";
 import SolutionPage from "../pages/solutionPage/solution_page";
@@ -22,6 +23,7 @@ export default function MyRouter() {
         <Route exact path={routeNames.careers} component={CareersPage} />
         <Route exact path={routeNames.ibmPage} component={IBMPartnershipPage} />
         <Route exact path={routeNames.SupplychainAnalytics} component={SupplychainAnalyticsPage} />
+        <Route exact path={routeNames.CustomerAnalytics} component={CustomerAnalyticsPage} />
       </Switch>
     </Router>
   );
