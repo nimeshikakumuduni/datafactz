@@ -19,6 +19,11 @@ const useStyles = makeStyles((theme) => ({
   maincontent2: {
     paddingTop: "3%",
     backgroundColor: "#c1c6c8",
+    display:'flex',
+    flexDirection:'row',
+    height:'100vh',
+    paddingLeft:'20px',
+    paddingRight:'20px'
   },
   title: {
     fontWeight: 700,
@@ -56,9 +61,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "17px",
   },
   image: {
-    width: "80%",
-    height: "60%",
-    paddingLeft: "9%",
+    height:'80%'
   },
   btndiv: {
     width: "100%",
@@ -69,17 +72,16 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
   },
   col2: {
-    width: "100%",
-    height: "60%",
+    width:'95%',
+    height:'100%'
   },
   textq: {
     color: "#e33d1f",
   },
   scrolldiv: {
-    width: "100%",
-    height: "50%",
-    marginLeft: "8%",
-    overflow: "scroll",
+    width: "95%",
+    height: "90%",
+    overflowY:'auto'
   },
   list: {
     fontSize: "14px",
