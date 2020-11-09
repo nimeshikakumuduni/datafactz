@@ -8,6 +8,8 @@ import CustomerAnalyticsPage from "../pages/CustomerAnalyticsPage/customer_analy
 import HomePage from "../pages/HomePage/home_page";
 import IBMPartnershipPage from "../pages/IBMPartnershipPage/ibm_partnership_page";
 import MarketingAnalyticsPage from "../pages/MarketingAnalyticsPage/marketing_analytics_page";
+import RiskAnalyticsPage from "../pages/RiskAnalyticsPage/risk_analytics_page";
+import SocialmediaAnalyticsPage from "../pages/SocialMediaAnalyticsPage/socialmedia_analytics_page";
 import SolutionPage from "../pages/solutionPage/solution_page";
 import SupplychainAnalyticsPage from "../pages/SupplychainAnalyticsPage/supplycain_analytics_page";
 import routeNames from "./route_names";
@@ -26,6 +28,8 @@ export default function MyRouter() {
         <Route exact path={routeNames.SupplychainAnalytics} component={SupplychainAnalyticsPage} />
         <Route exact path={routeNames.CustomerAnalytics} component={CustomerAnalyticsPage} />
         <Route exact path={routeNames.MarketingAnalyticsPage} component={MarketingAnalyticsPage} />
+        <Route exact path={routeNames.RiskAnalyticsPage} component={RiskAnalyticsPage} />
+        <Route exact path={routeNames.SocialmediaAnalyticsPage} component={SocialmediaAnalyticsPage} />
       </Switch>
     </Router>
   );

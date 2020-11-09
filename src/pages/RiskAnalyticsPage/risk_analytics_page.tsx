@@ -1,25 +1,27 @@
 import React from "react";
-import useStyles from "./marketing_analytics_page_styles";
+import useStyles from "./risk_analytics_page_styles";
 import MyAppBar from "../../components/appBar/app_bar";
 import Footer from "../../components/footer/footer";
-import MarketingpageContent from "../../components/MarketingPageContent/marketing_page_content";
+import RiskpageContent from "../../components/RiskPageContent/risk_page_content";
 
-function MarketingAnalyticsPage() {
+function RiskAnalyticsPage() {
   const classes = useStyles();
   return (
     <div>
       <MyAppBar />
       <div className={classes.relative}>
         <div className={classes.firstrow}>
-          <h1 className={classes.title}>marketing Analytics</h1>
+            
+        <img className={classes.image} src="images\Screenshot (68).png"></img>
+          <h1 className={classes.title}>risk Analytics</h1>
         </div>
 
         <div className={classes.scrollOuter}>
-          <MarketingpageContent />
+          <RiskpageContent />
           <Footer />
         </div>
       </div>
     </div>
   );
 }
-export default MarketingAnalyticsPage;
+export default RiskAnalyticsPage;

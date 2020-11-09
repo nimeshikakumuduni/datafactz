@@ -2,23 +2,29 @@ import { makeStyles } from "@material-ui/core";
 import { url } from "inspector";
 
 const useStyles = makeStyles({
-  scrollOuter: { zIndex: 1, paddingTop: "400px" },
+  scrollOuter: { zIndex: 1, paddingTop: "500px" },
   relative: { position: "relative" },
 
   firstrow: {
     width: "100%",
     position: "fixed",
-    backgroundImage: "url('/images/marketing-banner.png')",
+    display: "flex",
+    flexDirection: "row",
     zIndex: -1,
-    height: "100vh",
-    backgroundRepeat: "no-repeat",
+    paddingBottom: "5%",
   },
   title: {
     paddingTop: "10%",
-    paddingLeft: "37%",
     color: "#ff780e",
     textTransform: "uppercase",
     fontSize: "45px",
+  },
+  image: {
+      width: "35%",
+      height: "60%",
+      paddingTop: "4%",
+      paddingLeft: "7%",
+      paddingBottom: "5%",
   },
 });
 

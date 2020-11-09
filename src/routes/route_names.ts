@@ -9,6 +9,8 @@ const routeNames = {
     SupplychainAnalytics: "/SupplychainAnalyticsPage",
     CustomerAnalytics: "/CustomerAnalyticsPage",
     MarketingAnalyticsPage: "/MarketingAnalyticsPage",
+    RiskAnalyticsPage: "/RiskAnalyticsPage",
+    SocialmediaAnalyticsPage: "/SocialmediaAnalyticsPage",
   };
   
   export default routeNames;

@@ -90,12 +90,12 @@ function MyAppBar() {
 
   const RiskBtnPressed = () => {
     setAnchorEl2(null);
-    gotoPage(routeNames.ibmPage);
+    gotoPage(routeNames.RiskAnalyticsPage);
   };
 
   const SocialMediaBtnPressed = () => {
     setAnchorEl2(null);
-    gotoPage(routeNames.ibmPage);
+    gotoPage(routeNames.SocialmediaAnalyticsPage);
   };
 
   const RealtimeBtnPressed = () => {

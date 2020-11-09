@@ -73,7 +73,7 @@ function MarketingPageBlog() {
             type of simulation that can developed using Market Mix Models for
             business planning and strategy for marketing.
           </p>
-          <List>
+          <List className={classes.list}>
             <ListItem>
               By using Marketing Mix Modeling, we can help you:
             </ListItem>
@@ -89,7 +89,115 @@ function MarketingPageBlog() {
             </ListItem>
           </List>
         </div>
-          <Button className={classes.btn}>Read about big data</Button>
+        <Button className={classes.btn}>Read about big data</Button>
+      </div>
+
+      <div className={classes.maincontent}>
+        <img
+          className={classes.image2}
+          src="images\levers_animation_loop.gif"
+        ></img>
+      </div>
+
+      <div className={classes.maincontent4}>
+        <div className={classes.title1}>Product Portfolio Management</div>
+
+        <div className={classes.content}>
+          <p className={classes.contentfont}>
+            Most businesses offer a range of products, however, a large product
+            portfolio presents challenges in terms of deciding how to allocate
+            investments across the board. Each product makes a different
+            contribution to the organization’s bottom line. Some products may
+            come at an expense to produce; others cause an increase or decrease
+            in market share. Some contribute to significant revenues, and some
+            have greater marketing expenses. How can an organization manage a
+            well-balanced product portfolio while growing and gaining market
+            share? We can help your organization optimize the product portfolio
+            by analyzing consumer behavior to determine how to expand with new
+            products and phase out under-performing products. By analyzing and
+            understanding product combinations and the strength of these
+            relationships, we can help you determine how to upsell and cross
+            sell and develop effective promotions through the following process:
+          </p>
+          <List className={classes.list}>
+            <ListItem>
+              Build a model representing a set of customer patterns to analyze
+              strengths and weaknesses within product portfolio
+            </ListItem>
+            <ListItem>
+              Build decision tree models to identify customer behavior and
+              interaction with the product portfolio
+            </ListItem>
+            <ListItem>
+              Create predictive models for sales to identify the strongest
+              products that generate higher margins
+            </ListItem>
+            <ListItem>
+              Identify products that can be phased out over time due to cost and
+              market share etc.
+            </ListItem>
+          </List>
+          <p className={classes.contentfont}>
+            The below diagram illustrates a type of decision tree that we build
+            using BigML and other third party tools.
+          </p>
+        </div>
+        <Button className={classes.btn2}>
+          discover more about data management
+        </Button>
+      </div>
+      <div className={classes.maincontent}>
+        <img className={classes.image3} src="images\Screenshot (67).png"></img>
+      </div>
+      <div className={classes.maincontent5}>
+        <p className={classes.downloadtext}>
+          Download Report: Franchise Performance Management in the Era of Big
+          Data
+        </p>
+      </div>
+
+      <div className={classes.maincontent2}>
+        <div className={classes.title1}>Brand Equity Management</div>
+
+        <div className={classes.content}>
+          <p className={classes.contentfont}>
+            Brand equity is one of a company’s most valuable assets.
+            Understanding how this value is created, where it is created and the
+            relationship between brand value and business value is vital to
+            strategic decision making. Brand equity has several dimensions,
+            including brand awareness, brand image, and brand association. Using
+            the conventional methods, brand equity analysis can be performed
+            using customer survey data collected through marketing efforts.
+            However, traditional survey data sets do not portray the full brand
+            experience, such as product performance and pricing, and survey
+            findings cannot be correlated with the overall outcomes and
+            financial performance. At DataFactZ, we go beyond these conventional
+            methods to establish a complete picture of brand management by
+            building predictive statistical models that can correlate
+            information from marketing efforts, survey data, brand awareness,
+            and sales. Today’s customers are actively engaged with brands on
+            social media, providing an opportunity to consistently monitor brand
+            awareness, recognition, popularity of products and services and
+            more, adding another dimension to measure brand equity. Our
+            interdisciplinary approach to brand management coordinates brand
+            equity management with customer retention to ensure these efforts
+            support each other. Our brand equity management services can help
+            you:
+          </p>
+          <List className={classes.list}>
+            <ListItem>
+              Determine and measure how much your brand is worth
+            </ListItem>
+            <ListItem>
+              Build a framework to continuously monitor the health of your brand
+              over time
+            </ListItem>
+            <ListItem>
+              Measure the effects of changes in brand key performance indicators
+              and customer behavior
+            </ListItem>
+          </List>
+        </div>
       </div>
     </div>
   );
