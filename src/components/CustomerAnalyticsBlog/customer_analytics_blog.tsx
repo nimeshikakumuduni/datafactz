@@ -121,19 +121,53 @@ function CustomerAnalyticsBlog() {
         </div>
         <Box width="50px" />
         <div className={classes.col2}>
-            <img className={classes.image} width="100%"  src="images\Grupo.png"></img>
-          </div>
-        {/* <div className={classes.btndiv}>
-          <div className={classes.col1}>
-            
-          </div>
-          
-        </div> */}
+          <img
+            className={classes.image}
+            width="75%"
+            src="images\Grupo.png"
+          ></img>
+        </div>
       </div>
 
-      {/* <div className={classes.maincontent}></div>
-
-      <div className={classes.maincontent}></div> */}
+      <div className={classes.maincontent3}>
+        <div className={classes.col3}>
+          <div className={classes.paddign}>
+          <h1 className={classes.text3}>Sentiment Analysis</h1>
+          <h1 className={classes.text2}>
+            At DataFactZ we’ve combined advanced techniques from machine
+            learning and artificial intelligence to understand the overall
+            sentiment of conversations (positive, negative or neutral)
+            leveraging text-mining analytics. These models can analyze any
+            source of data whether it is structured or unstructured, through any
+            communication channel or CRM System, such as Email, Call Center,
+            Social Media, and Surveys etc.
+          </h1>
+          <List className={classes.list2}>
+            <ListItem>
+              Discover and measure key topics of conversation, providing
+              important insights about your brand from multiple channels such as
+              Emails, Social Media, Surveys, etc.
+            </ListItem>
+            <ListItem>
+              Perform analysis on interest affinities by identifying interests
+              that drive social action. This new dimension adds a new context to
+              your analysis that reveal interesting facts about your business.
+            </ListItem>
+            <ListItem>
+              Benchmark and track the performance of your enterprise social
+              media accounts to identify which content is driving the most
+              engagement.
+            </ListItem>
+          </List>
+          </div>
+        </div>
+        <div className={classes.col4}>
+          <img
+            className={classes.image2}
+            src="images\Trazado-Trazado-Trazado-Trazado.png"
+          ></img>
+        </div>
+      </div>
     </div>
   );
 }
