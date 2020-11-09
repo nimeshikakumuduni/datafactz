@@ -9,7 +9,7 @@ const useStyles = makeStyles({
     width: "100%",
     height:'100vh',
     position: "fixed",
-    backgroundImage: "url('/images/marketing-banner.png')",
+    backgroundImage: "url('images/marketing-banner.png')",
     zIndex: -1,
     backgroundColor: "yellow",
   },
