@@ -44,11 +44,10 @@ const useStyles = makeStyles({
     zIndex: 3,
     width: "40%",
     textTransform: "uppercase",
-    
   },
   supplychainlist: {
     color: "white",
-  }
+  },
 });
 
 export default useStyles;

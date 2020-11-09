@@ -8,6 +8,7 @@ const routeNames = {
     ibmPage: "/ibmPage",
     SupplychainAnalytics: "/SupplychainAnalyticsPage",
     CustomerAnalytics: "/CustomerAnalyticsPage",
+    MarketingAnalyticsPage: "/MarketingAnalyticsPage",
   };
   
   export default routeNames;

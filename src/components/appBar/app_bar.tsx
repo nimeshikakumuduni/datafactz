@@ -85,7 +85,7 @@ function MyAppBar() {
 
   const MarketingBtnPressed = () => {
     setAnchorEl2(null);
-    gotoPage(routeNames.ibmPage);
+    gotoPage(routeNames.MarketingAnalyticsPage);
   };
 
   const RiskBtnPressed = () => {
