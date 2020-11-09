@@ -11,6 +11,7 @@ const routeNames = {
     MarketingAnalyticsPage: "/MarketingAnalyticsPage",
     RiskAnalyticsPage: "/RiskAnalyticsPage",
     SocialmediaAnalyticsPage: "/SocialmediaAnalyticsPage",
+    RealTimeAnalyticsPage: "/RealTimeAnalyticsPage",
   };
   
   export default routeNames;

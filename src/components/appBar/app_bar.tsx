@@ -100,7 +100,7 @@ function MyAppBar() {
 
   const RealtimeBtnPressed = () => {
     setAnchorEl2(null);
-    gotoPage(routeNames.ibmPage);
+    gotoPage(routeNames.RealTimeAnalyticsPage);
   };
 
   const BigDataBtnPressed = () => {

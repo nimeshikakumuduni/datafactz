@@ -1,5 +1,4 @@
 import { makeStyles } from "@material-ui/core";
-import { url } from "inspector";
 
 const useStyles = makeStyles({
   scrollOuter: { zIndex: 1, paddingTop: "400px" },

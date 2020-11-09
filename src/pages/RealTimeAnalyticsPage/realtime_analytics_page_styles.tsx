@@ -2,21 +2,24 @@ import { makeStyles } from "@material-ui/core";
 import { url } from "inspector";
 
 const useStyles = makeStyles({
-  scrollOuter: { zIndex: 1, paddingTop: "480px" },
+  scrollOuter: { zIndex: 1, paddingTop: "308px" },
   relative: { position: "relative" },
 
   firstrow: {
     width: "100%",
     position: "fixed",
     display: "flex",
-    flexDirection: "row",
+    flexDirection: "column",
     zIndex: -1,
     paddingBottom: "5%",
-    backgroundColor: "#ff780e",
+  },
+  topicdiv: {
+      width: "50%",
+      paddingLeft: "25%",
   },
   title: {
     paddingTop: "10%",
-    color: "white",
+    color: "#ff780e",
     textTransform: "uppercase",
     fontSize: "45px",
   },
