@@ -7,10 +7,10 @@ const useStyles = makeStyles({
 
   firstrow: {
     width: "100%",
+    height:'100vh',
     position: "fixed",
     backgroundImage: "url('/images/marketing-banner.png')",
     zIndex: -1,
-    height: "100vh",
     backgroundRepeat: "no-repeat",
   },
   title: {
