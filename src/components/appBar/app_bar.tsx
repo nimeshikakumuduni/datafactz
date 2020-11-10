@@ -105,7 +105,7 @@ function MyAppBar() {
 
   const BigDataBtnPressed = () => {
     setAnchorEl3(null);
-    gotoPage(routeNames.ibmPage);
+    gotoPage(routeNames.BigDataPage);
   };
 
   const BusinessIntelligentBtnPressed = () => {

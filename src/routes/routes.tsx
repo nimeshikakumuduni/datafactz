@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AboutUsPage from "../pages/AboutUsPage/aboutus_page";
+import BigDataPage from "../pages/BigDataPage/big_data_page";
 import CareersPage from "../pages/CareersPage/careers_page";
 import CommunitycarePage from "../pages/CommunityCarePage/community_care_page";
 import ContactPage from "../pages/contactPage/contact_page";
@@ -32,6 +33,7 @@ export default function MyRouter() {
         <Route exact path={routeNames.RiskAnalyticsPage} component={RiskAnalyticsPage} />
         <Route exact path={routeNames.SocialmediaAnalyticsPage} component={SocialmediaAnalyticsPage} />
         <Route exact path={routeNames.RealTimeAnalyticsPage} component={RealTimeAnalyticsPage} />
+        <Route exact path={routeNames.BigDataPage} component={BigDataPage} />
       </Switch>
     </Router>
   );
