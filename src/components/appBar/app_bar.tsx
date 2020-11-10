@@ -110,7 +110,7 @@ function MyAppBar() {
 
   const BusinessIntelligentBtnPressed = () => {
     setAnchorEl3(null);
-    gotoPage(routeNames.ibmPage);
+    gotoPage(routeNames.BusinessIntelligentPage);
   };
 
   const DatawarehousingBtnPressed = () => {
