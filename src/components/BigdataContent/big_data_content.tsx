@@ -1,7 +1,6 @@
 import { List, ListItem } from "@material-ui/core";
 import React from "react";
 import BigDataBlog from "../BigDataBlog/bigdata_blog";
-import RealtimeaBlog from "../RealTimeBlog/realtime_blog";
 import useStyles from "./big_data_content_styles";
 
 function BigDataPageContent() {

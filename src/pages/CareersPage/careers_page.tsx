@@ -2,7 +2,6 @@ import React from "react";
 import useStyles from "./careers_page_styles";
 import MyAppBar from "../../components/appBar/app_bar";
 import Footer from "../../components/footer/footer";
-import CommunitycarePageContent from "../../components/communitycarepageContent/communitycarepage_content";
 import CareersPageContent from "../../components/CareersPageContent/careers_page_content";
 
 function CareersPage() {

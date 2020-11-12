@@ -1,7 +1,6 @@
 import { List, ListItem } from "@material-ui/core";
 import React from "react";
 import MarketingPageBlog from "../MarketingPageBlog/marketing_page_blog";
-import SolutionPageBlog from "../solutionpageBlog/solution_page_blog";
 import useStyles from "./mrketing_page_content_styles";
 
 function MarketingpageContent() {

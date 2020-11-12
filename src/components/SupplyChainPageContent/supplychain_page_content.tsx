@@ -1,6 +1,5 @@
 import { Button, List, ListItem } from "@material-ui/core";
 import React from "react";
-import SolutionPageBlog from "../solutionpageBlog/solution_page_blog";
 import SupplychainBlog from "../SupplyChainBlog/supplychain_blog";
 import useStyles from "./supplychain_page_content_styles";
 

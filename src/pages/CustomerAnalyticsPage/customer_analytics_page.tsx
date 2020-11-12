@@ -2,7 +2,6 @@ import React from "react";
 import useStyles from "./customer_analytics_page_styles";
 import MyAppBar from "../../components/appBar/app_bar";
 import Footer from "../../components/footer/footer";
-import SolutionpageContent from "../../components/solutionpageContent/solutionpage_content";
 import CustomerAnalyticsPageContent from "../../components/CustomerAnalyticsPageContent/customer_analytics_page_content";
 
 function CustomerAnalyticsPage() {

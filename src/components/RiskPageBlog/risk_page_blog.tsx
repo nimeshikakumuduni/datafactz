@@ -1,4 +1,4 @@
-import { Button, List, ListItem } from "@material-ui/core";
+import {List, ListItem } from "@material-ui/core";
 import React from "react";
 import useStyles from "./risk_page_blog_styles";
 

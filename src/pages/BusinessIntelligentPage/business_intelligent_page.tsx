@@ -2,7 +2,6 @@ import React from "react";
 import useStyles from "./business_intelligent_page_styles";
 import MyAppBar from "../../components/appBar/app_bar";
 import Footer from "../../components/footer/footer";
-import BigDataPageContent from "../../components/BigdataContent/big_data_content";
 import BusinessIntelligentContent from "../../components/BusinessIntelligentContent/business_intelligent_content";
 
 function BusinessIntelligentPage() {

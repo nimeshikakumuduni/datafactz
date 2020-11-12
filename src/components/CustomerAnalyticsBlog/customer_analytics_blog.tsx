@@ -1,4 +1,4 @@
-import { Box, Button, List, ListItem } from "@material-ui/core";
+import { Box, List, ListItem } from "@material-ui/core";
 import React from "react";
 import useStyles from "./customer_analytics_blog_styles";
 

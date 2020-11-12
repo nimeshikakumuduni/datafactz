@@ -1,4 +1,3 @@
-import { List, ListItem } from "@material-ui/core";
 import React from "react";
 import RiskPageBlog from "../RiskPageBlog/risk_page_blog";
 import useStyles from "./risk_page_content_styles";

@@ -1,6 +1,5 @@
 import React from "react";
 import IBMPageBlog from "../IBMBlog/ibm_blog";
-import SolutionPageBlog from "../solutionpageBlog/solution_page_blog";
 import useStyles from "./ibm_parnership_content_styles";
 
 function IBMParnershipContent() {

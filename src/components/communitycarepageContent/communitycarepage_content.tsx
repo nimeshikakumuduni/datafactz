@@ -1,4 +1,3 @@
-
 import React from "react";
 import CommunitycarePageBlog from "../communitycarePageBlog/communitycarepage_blog";
 import useStyles from "./communtycare_page_content_styles";

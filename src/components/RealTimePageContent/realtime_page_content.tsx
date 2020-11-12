@@ -1,6 +1,5 @@
 import React from "react";
 import RealtimeaBlog from "../RealTimeBlog/realtime_blog";
-import SocialMediaBlog from "../SocialMediaBlog/social_media_blog";
 import useStyles from "./realtime_page_content_styles";
 
 function RealtimepageContent() {

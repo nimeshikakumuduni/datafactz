@@ -2,7 +2,6 @@ import React from "react";
 import useStyles from "./realtime_analytics_page_styles";
 import MyAppBar from "../../components/appBar/app_bar";
 import Footer from "../../components/footer/footer";
-import SocialMediapageContent from "../../components/SocialMediaPageContent/socalmedia_page_content";
 import RealtimepageContent from "../../components/RealTimePageContent/realtime_page_content";
 
 function RealTimeAnalyticsPage() {

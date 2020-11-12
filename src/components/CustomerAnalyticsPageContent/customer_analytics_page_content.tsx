@@ -1,7 +1,6 @@
 import { List, ListItem } from "@material-ui/core";
 import React from "react";
 import CustomerAnalyticsBlog from "../CustomerAnalyticsBlog/customer_analytics_blog";
-import SolutionPageBlog from "../solutionpageBlog/solution_page_blog";
 import useStyles from "./customer_analytics_page_content_styles";
 
 function CustomerAnalyticsPageContent() {
