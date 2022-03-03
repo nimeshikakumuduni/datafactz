@@ -9,7 +9,7 @@ const useStyles = makeStyles({
   image: {
     display: "inline-block",
     width: "10%",
-    height: "10%",
+    // height: "10%",
     marginLeft: "5%",
     marginRight: "4%",
   },

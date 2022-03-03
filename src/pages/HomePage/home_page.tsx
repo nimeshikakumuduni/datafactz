@@ -23,7 +23,7 @@ function HomePage() {
           <img
             className={classes.img2}
             alt="before"
-            src="https://datafactz.com/wp-content/themes/datafactz/dist/images/before.jpg"
+            src="images/before1.jpg" 
             id="beforeimage27895723"
           />
         </Typography>

@@ -4,11 +4,11 @@ const useStyles = makeStyles({
   homecontent: {
     width: "100%",
     backgroundColor: "#101820",
-    marginTop: "4%",
+    // marginTop: "4%",
   },
   heading: {
     paddingLeft: "12%",
-    paddingTop: "12%",
+    paddingTop: "10%",
     fontSize: "30px",
     fontWeight: "bold",
     color: "#ff780e",
