@@ -23,7 +23,7 @@ function HomePage() {
           <img
             className={classes.img2}
             alt="before"
-            src="images/before1.jpg" 
+            src="images/before1.jpg"
             id="beforeimage27895723"
           />
         </Typography>

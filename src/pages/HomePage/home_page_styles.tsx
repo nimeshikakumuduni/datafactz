@@ -9,7 +9,6 @@ const useStyles = makeStyles({
   },
   img2: {
     width: "100%",
-    height: "70%",
     position: "absolute",
     justifyContent: "center",
   },
